@@ -38,10 +38,12 @@ PCB files for biym game.
 
 #+NAME: license
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: guix-license
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: license-files
@@ -56,6 +58,7 @@ biym-board
 
 #+NAME: guix-name
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: repository-url
@@ -105,14 +108,17 @@ Kicad
 
 #+NAME: guix-dependencies
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+NAME: command-line-interface
 #+BEGIN_SRC text :exports none :noweb yes
+nil
 #+END_SRC
 
 #+BEGIN_EXAMPLE
