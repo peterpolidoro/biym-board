@@ -17,7 +17,9 @@
 - Email: peter@polidoro.io
 - Copyright: 2022 Peter Polidoro
 - References:
-  - nil
+  - https://www.adafruit.com/product/4062
+  - https://learn.adafruit.com/adafruit-feather/feather-specification
+  - https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 ```
 
 

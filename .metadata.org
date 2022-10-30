@@ -103,7 +103,7 @@ Peter Polidoro
 
 #+NAME: programming-language
 #+BEGIN_SRC text :exports none :noweb yes
-Kicad
+KiCad
 #+END_SRC
 
 #+NAME: guix-dependencies
@@ -113,7 +113,9 @@ nil
 
 #+NAME: references
 #+BEGIN_SRC text :exports none :noweb yes
-nil
+https://www.adafruit.com/product/4062
+https://learn.adafruit.com/adafruit-feather/feather-specification
+https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 #+END_SRC
 
 #+NAME: command-line-interface
