@@ -7,6 +7,7 @@
    "kicad-footprints"
    "kicad-packages3d"
    "kicad-templates"
+   "guix-icons"
    "make"
    "bash"
    "git"

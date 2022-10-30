@@ -1,0 +1,21 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8aa5116f-ac54-4325-a42a-36123c2901d1)
+
+  (paper "A4")
+
+  (title_block
+    (title "biym-board")
+    (date "2022-10-29")
+    (rev "0.1")
+    (company "Peter Polidoro")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
