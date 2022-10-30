@@ -14,7 +14,7 @@ metadata:
 	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l .init.el --eval '(process-org \".metadata.org\")'"
 
 file-edits:
-	$(GUIX-CONTAINER-GUI) -- kicad
+	$(GUIX-SHELL) --pure -- kicad
 
 add:
 	$(GUIX-CONTAINER) -- sh -c "git add --all"
