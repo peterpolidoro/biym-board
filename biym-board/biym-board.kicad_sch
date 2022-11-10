@@ -6,7 +6,7 @@
 
   (title_block
     (title "biym-board")
-    (date "2022-11-08")
+    (date "2022-11-10")
     (rev "0.1")
     (company "Peter Polidoro")
   )
@@ -387,7 +387,7 @@
     (uuid f5ee9727-ce81-4a8d-9eb6-87d9951a69bd)
   )
 
-  (label "ENABLE_HIGH_VOLTAGE" (at 95.25 105.41 0)
+  (label "ENABLE_VCC" (at 95.25 105.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 04548913-3a96-4606-940e-ee5f4be5922c)
   )
@@ -395,7 +395,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0f22af9e-379e-4d99-8849-f844c59b8fd5)
   )
-  (label "ENABLE_HIGH_VOLTAGE" (at 134.62 73.66 180)
+  (label "ENABLE_VCC" (at 134.62 73.66 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a709047-c080-40b9-ada9-23ae87ed38d5)
   )
@@ -415,11 +415,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7b7f5b5b-6256-4224-96c2-36958163a8aa)
   )
-  (label "ENABLE_LOW_VOLTAGE" (at 171.45 68.58 0)
+  (label "~{DISABLE_ALL_POWER}" (at 171.45 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3bb9f98-ffab-4b04-9cfd-68de4271a539)
   )
-  (label "ENABLE_LOW_VOLTAGE" (at 95.25 100.33 0)
+  (label "~{DISABLE_ALL_POWER}" (at 95.25 100.33 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid da0630e2-7b7f-4ecd-8d23-2b1301427569)
   )
@@ -513,13 +513,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ef94c743-f6f2-4a19-ad2a-8bcdabfa4429)
     )
-    (pin "ENABLE_HIGH_VOLTAGE" input (at 137.16 73.66 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid af566920-ead0-4675-9b8d-986edaca1a53)
-    )
-    (pin "ENABLE_LOW_VOLTAGE" output (at 168.91 68.58 0)
+    (pin "~{DISABLE_ALL_POWER}" output (at 168.91 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3ccde977-aab1-435a-a48a-f88e245015b9)
+      (uuid c39b034a-bd24-4c1d-a551-866af3c7e529)
+    )
+    (pin "ENABLE_VCC" input (at 137.16 73.66 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid bd7a3966-1764-4183-8879-71d65d3517bb)
     )
   )
 
@@ -529,16 +529,16 @@
   )
 
   (symbol_instances
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/d2cbfbee-bcfb-4ed9-b3fa-540be86c6c52"
-      (reference "D1") (unit 1) (value "DIODE_SCHOTTKY_15V_1A") (footprint "footprints:DO-214BA")
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ae7d77aa-4639-4a04-8768-f2282fb5051c"
+      (reference "D1") (unit 1) (value "DIODE_SCHOTTKY_40V_2A_0603") (footprint "Janelia:SM0603_DSN2")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/f78441dc-9d0d-4d39-aaa8-49619bc8e2d4"
-      (reference "D2") (unit 1) (value "DIODE_SCHOTTKY_15V_1A") (footprint "footprints:DO-214BA")
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7ddeef5d-5855-4b75-a2bc-b5412afa8482"
+      (reference "D2") (unit 1) (value "DIODE_SCHOTTKY_40V_2A_0603") (footprint "Janelia:SM0603_DSN2")
     )
     (path "/55a2d7cd-47d7-49c1-94ac-5e60fd064dcf"
       (reference "FW1") (unit 1) (value "FEATHERWING_nRF52_PIN_RECEPTACLES") (footprint "Janelia:FEATHERWING_PIN_RECEPTACLES")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/6c21a8d5-bff4-440f-baad-391d3359c849"
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ee181020-0a66-4e94-8afa-04e718523ff4"
       (reference "J1") (unit 1) (value "JST_SH_BM02_VERTICAL") (footprint "Janelia:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical")
     )
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ab142e9c-269c-4749-bf0a-3cc0397cc4cb"
@@ -548,7 +548,7 @@
       (reference "Q2") (unit 1) (value "MOSFET-P-CH-EN") (footprint "Janelia:SOT-23-3")
     )
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/1c5e1e5d-544e-4c6a-8063-3a626f207568"
-      (reference "R1") (unit 1) (value "100k") (footprint "footprints:SM0402")
+      (reference "R1") (unit 1) (value "100k") (footprint "Janelia:SM0402")
     )
   )
 )
