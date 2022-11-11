@@ -1,0 +1,16 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 538ad3a9-373f-4690-8db4-67da9359b4e5)
+
+  (paper "A4")
+
+  (title_block
+    (title "biym-board-brushless-motor")
+    (date "2022-11-11")
+    (rev "0.1")
+  )
+
+  (lib_symbols
+  )
+
+)

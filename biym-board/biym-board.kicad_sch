@@ -6,7 +6,7 @@
 
   (title_block
     (title "biym-board")
-    (date "2022-11-10")
+    (date "2022-11-11")
     (rev "0.1")
     (company "Peter Polidoro")
   )
@@ -321,7 +321,6 @@
   )
 
 
-
   (no_connect (at 49.53 92.71) (uuid 009fef6c-ddd1-4d04-9fbf-77f86b064333))
   (no_connect (at 49.53 123.19) (uuid 098a3244-cbd9-4897-af64-5d927ae516f5))
   (no_connect (at 92.71 118.11) (uuid 191418f0-3eab-47a5-aa0f-2fa36d5e7346))
@@ -505,9 +504,22 @@
     )
   )
 
+  (sheet (at 137.16 90.17) (size 31.75 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 79116d11-26fd-48fc-b8f9-7a7b774125a1)
+    (property "Sheet name" "motor" (id 0) (at 137.16 89.4584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "motor.kicad_sch" (id 1) (at 137.16 105.9946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9" (page "2"))
+    (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1" (page "3"))
   )
 
   (symbol_instances

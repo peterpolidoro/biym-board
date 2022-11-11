@@ -6,7 +6,8 @@
 
   (title_block
     (title "biym-board-power")
-    (date "2022-11-10")
+    (date "2022-11-11")
+    (rev "0.1")
   )
 
   (lib_symbols

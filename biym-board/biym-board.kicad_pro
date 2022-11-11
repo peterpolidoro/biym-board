@@ -324,6 +324,10 @@
     [
       "2c398cb1-cb17-49ba-86d6-22731656ead9",
       "power"
+    ],
+    [
+      "79116d11-26fd-48fc-b8f9-7a7b774125a1",
+      "motor"
     ]
   ],
   "text_variables": {}
