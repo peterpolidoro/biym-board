@@ -542,23 +542,19 @@
     )
   )
 
-  (sheet (at 182.88 90.17) (size 31.75 21.59) (fields_autoplaced)
+  (sheet (at 182.88 90.17) (size 31.75 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 79116d11-26fd-48fc-b8f9-7a7b774125a1)
-    (property "Sheet name" "motor" (id 0) (at 182.88 89.4584 0)
+    (property "Sheet name" "motor_driver" (id 0) (at 182.88 89.4584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "motor.kicad_sch" (id 1) (at 182.88 112.3446 0)
+    (property "Sheet file" "motor_driver.kicad_sch" (id 1) (at 182.88 116.1546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "VDIGITAL" passive (at 182.88 95.25 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 04c23662-9f60-4297-9311-d08c4c50e4fe)
-    )
-    (pin "VMOTOR" passive (at 182.88 92.71 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9cc89077-cf1c-4eb0-9c63-486103d71f2f)
     )
     (pin "GND" passive (at 182.88 97.79 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -576,6 +572,14 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 10e2fd9d-d0c1-45ed-8c0f-a33717333c5f)
     )
+    (pin "~{SLEEP}" input (at 182.88 113.03 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2ac6ff69-06fe-4c03-bebd-a70b1623b9b5)
+    )
+    (pin "VDRIVER" passive (at 182.88 92.71 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid d04f4a14-fb4e-42cb-81e2-7ad05753a8a7)
+    )
   )
 
   (sheet_instances
@@ -588,8 +592,11 @@
     (path "/78609776-14fe-41ec-972c-2bdc49eac818"
       (reference "FW1") (unit 1) (value "FEATHERWING_nRF52_POGO_PINS") (footprint "Janelia:FEATHERWING_POGO_PINS")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ee181020-0a66-4e94-8afa-04e718523ff4"
-      (reference "J1") (unit 1) (value "JST_SH_BM02_VERTICAL") (footprint "Janelia:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical")
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/be169668-1ccd-45d2-bc9d-fec61d1f06d0"
+      (reference "J1") (unit 1) (value "HEADER_01X02_JST_SH_SMD_VERTICAL") (footprint "Janelia:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical")
+    )
+    (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/73049e1e-00b1-4d86-b27f-13c3a3887bed"
+      (reference "J?") (unit 1) (value "HEADER_01X03_JST_PH_VERTICAL") (footprint "Janelia:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ab142e9c-269c-4749-bf0a-3cc0397cc4cb"
       (reference "Q1") (unit 1) (value "MOSFET-N-CH-EN") (footprint "Janelia:SOT-23-3")

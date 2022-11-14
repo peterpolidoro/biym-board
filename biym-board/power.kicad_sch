@@ -62,11 +62,11 @@
         )
       )
     )
-    (symbol "Janelia:JST_SH_BM02_VERTICAL" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "Janelia:HEADER_01X02_JST_SH_SMD_VERTICAL" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "JST_SH_BM02_VERTICAL" (id 1) (at 0 -5.08 0)
+      (property "Value" "HEADER_01X02_JST_SH_SMD_VERTICAL" (id 1) (at 0 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "Janelia:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" (id 2) (at 0 12.7 0)
@@ -99,13 +99,13 @@
       (property "ki_fp_filters" "Connector*:*_1x??_*" (id 11) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "JST_SH_BM02_VERTICAL_0_1"
+      (symbol "HEADER_01X02_JST_SH_SMD_VERTICAL_0_1"
         (rectangle (start -1.27 1.27) (end 1.27 -3.81)
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
         )
       )
-      (symbol "JST_SH_BM02_VERTICAL_1_1"
+      (symbol "HEADER_01X02_JST_SH_SMD_VERTICAL_1_1"
         (polyline
           (pts
             (xy 1.27 -2.54)
@@ -690,11 +690,11 @@
     (pin "3" (uuid 4d7d1680-255d-46eb-9bef-213521e2fe47))
   )
 
-  (symbol (lib_id "Janelia:JST_SH_BM02_VERTICAL") (at 163.83 118.11 0) (unit 1)
+  (symbol (lib_id "Janelia:HEADER_01X02_JST_SH_SMD_VERTICAL") (at 163.83 118.11 0) (unit 1)
     (in_bom yes) (on_board yes)
-    (uuid ee181020-0a66-4e94-8afa-04e718523ff4)
+    (uuid be169668-1ccd-45d2-bc9d-fec61d1f06d0)
     (property "Reference" "J1" (id 0) (at 163.83 115.57 0))
-    (property "Value" "JST_SH_BM02_VERTICAL" (id 1) (at 161.29 119.38 90))
+    (property "Value" "HEADER_01X02_JST_SH_SMD_VERTICAL" (id 1) (at 163.83 123.19 0))
     (property "Footprint" "Janelia:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" (id 2) (at 163.83 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -716,7 +716,7 @@
     (property "Vendor Part Number" "455-1788-1-ND" (id 8) (at 163.83 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d6e94110-2f8f-4f18-bf98-3de18e5bddf3))
-    (pin "2" (uuid 59d846b7-d4ac-4ce7-8d20-604505b8c4db))
+    (pin "1" (uuid 311cbf2a-fbc2-4336-86e5-0c25e35c3e44))
+    (pin "2" (uuid 1d4eac8a-c60a-43b1-b0d2-27872680b7bb))
   )
 )
