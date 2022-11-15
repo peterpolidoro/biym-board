@@ -421,11 +421,11 @@
     ],
     [
       "79116d11-26fd-48fc-b8f9-7a7b774125a1",
-      "motor_driver"
+      "driver"
     ],
     [
       "63981df2-6365-426b-91a2-0a3730bf331a",
-      "motor_feedback"
+      "encoder"
     ]
   ],
   "text_variables": {}
