@@ -811,11 +811,24 @@
     )
   )
 
+  (sheet (at 166.37 137.16) (size 31.75 15.24) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid ba7902c8-ef45-407b-94b0-d9c747cdabc9)
+    (property "Sheet name" "led" (id 0) (at 166.37 136.4484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "led.kicad_sch" (id 1) (at 166.37 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9" (page "2"))
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1" (page "3"))
     (path "/63981df2-6365-426b-91a2-0a3730bf331a" (page "4"))
+    (path "/ba7902c8-ef45-407b-94b0-d9c747cdabc9" (page "5"))
   )
 
   (symbol_instances

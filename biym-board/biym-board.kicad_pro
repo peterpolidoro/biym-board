@@ -426,6 +426,10 @@
     [
       "63981df2-6365-426b-91a2-0a3730bf331a",
       "encoder"
+    ],
+    [
+      "ba7902c8-ef45-407b-94b0-d9c747cdabc9",
+      "led"
     ]
   ],
   "text_variables": {}
