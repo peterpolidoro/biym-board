@@ -430,6 +430,10 @@
     [
       "ba7902c8-ef45-407b-94b0-d9c747cdabc9",
       "led"
+    ],
+    [
+      "3b57f4fe-133d-498f-bd73-d40ea34b3dad",
+      "servo"
     ]
   ],
   "text_variables": {}
