@@ -434,6 +434,10 @@
     [
       "3b57f4fe-133d-498f-bd73-d40ea34b3dad",
       "servo"
+    ],
+    [
+      "5a587278-0eec-4b8f-b1d6-43d5ddf30d13",
+      "gpio"
     ]
   ],
   "text_variables": {}
