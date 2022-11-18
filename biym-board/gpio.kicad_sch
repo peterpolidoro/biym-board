@@ -109,11 +109,11 @@
   )
 
 
-  (wire (pts (xy 134.62 96.52) (xy 137.16 96.52))
+  (wire (pts (xy 134.62 93.98) (xy 137.16 93.98))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08774332-8717-4177-9f80-132e9e2918c5)
   )
-  (wire (pts (xy 134.62 93.98) (xy 137.16 93.98))
+  (wire (pts (xy 134.62 96.52) (xy 137.16 96.52))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9de7a184-2ab2-4d17-baeb-10e293c457ec)
   )
@@ -122,11 +122,11 @@
     (uuid df37dcc2-33d5-4a0d-9992-dc647d448b94)
   )
 
-  (hierarchical_label "GPIO_0" (shape input) (at 134.62 93.98 180)
+  (hierarchical_label "GPIO_0" (shape input) (at 134.62 96.52 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0e096063-2dc9-453a-b5a5-ea1ab0f0c03d)
   )
-  (hierarchical_label "GND" (shape passive) (at 134.62 96.52 180)
+  (hierarchical_label "GND" (shape passive) (at 134.62 93.98 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 77d9b782-1704-4de4-9eb8-3aa72b53d96e)
   )
