@@ -438,6 +438,14 @@
     [
       "5a587278-0eec-4b8f-b1d6-43d5ddf30d13",
       "gpio"
+    ],
+    [
+      "ca28fe57-26cd-4ef6-98ec-2d114184fa5c",
+      "boost_led"
+    ],
+    [
+      "7f68221f-2146-4876-8266-973547afa80f",
+      "boost_servo"
     ]
   ],
   "text_variables": {}

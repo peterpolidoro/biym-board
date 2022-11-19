@@ -558,7 +558,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 0056355f-547d-438b-b84d-9dd10de6d901)
   )
-  (label "ENABLE_PERIPHERAL_POWER" (at 52.07 86.36 180)
+  (label "ENABLE_LED_POWER" (at 52.07 86.36 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 04548913-3a96-4606-940e-ee5f4be5922c)
   )
@@ -570,7 +570,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 062f96fe-5ea4-434b-8e14-c2c96038269e)
   )
-  (label "VPERIPHERAL" (at 182.88 39.37 0)
+  (label "VLED" (at 182.88 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 08db2fd1-65fb-416e-86ad-976a5051ad20)
   )
@@ -586,7 +586,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 11772ef3-7ad9-42ef-b18c-9bd97b834001)
   )
-  (label "ENABLE_PERIPHERAL_POWER" (at 146.05 46.99 180)
+  (label "ENABLE_LED_POWER" (at 146.05 46.99 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a709047-c080-40b9-ada9-23ae87ed38d5)
   )
@@ -614,7 +614,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4dd7ee6f-141f-440a-a00b-c25fd591c71b)
   )
-  (label "ENABLE_BOOSTED_POWER" (at 146.05 49.53 180)
+  (label "ENABLE_SERVO_POWER" (at 146.05 49.53 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 514ae9e1-26d0-4ef4-a3fc-2ff5c70e58d4)
   )
@@ -626,7 +626,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 560ceaab-6023-487f-bfd5-aa945668dfda)
   )
-  (label "VBOOSTED" (at 182.88 41.91 0)
+  (label "VSERVO" (at 182.88 41.91 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5ee2d63a-146c-475b-8a2e-ade1caff4653)
   )
@@ -642,7 +642,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 71e87269-74d8-45cf-9748-432e69129fa4)
   )
-  (label "DRIVER_PWM_C" (at 100.33 99.06 0)
+  (label "DRIVER_PWM_C" (at 100.33 104.14 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 73b1af11-1f07-42b8-b201-87530eb1ce0b)
   )
@@ -670,7 +670,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 98642faa-4c4c-4493-b3a1-fa2d76989e43)
   )
-  (label "DRIVER_PWM_A" (at 100.33 104.14 0)
+  (label "DRIVER_PWM_A" (at 100.33 99.06 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d7ac32f-faa5-419d-bdd3-2e97072c7078)
   )
@@ -678,7 +678,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9d973fd3-5765-48b8-ba2b-38126aa70a9f)
   )
-  (label "ENABLE_BOOSTED_POWER" (at 52.07 96.52 180)
+  (label "ENABLE_SERVO_POWER" (at 52.07 96.52 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid a0de273a-6a5a-4218-ad3a-1cf95be9acae)
   )
@@ -690,7 +690,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b3bb9f98-ffab-4b04-9cfd-68de4271a539)
   )
-  (label "VBOOSTED" (at 222.25 39.37 180)
+  (label "VSERVO" (at 222.25 39.37 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid baa24a75-ad51-4496-ba67-f4c4c5459186)
   )
@@ -718,7 +718,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d00ec43f-1426-4562-962a-9d0895be8779)
   )
-  (label "VPERIPHERAL" (at 146.05 140.97 180)
+  (label "VLED" (at 146.05 140.97 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d0dde4dd-4ba7-4026-b1a5-73d24ac103bc)
   )
@@ -852,10 +852,6 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8154319d-915c-4557-bf00-723a17a77d99)
     )
-    (pin "VPERIPHERAL" passive (at 180.34 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 76cb09fe-b825-4bb2-9ad7-966fa522fc60)
-    )
     (pin "VBATTERY" passive (at 148.59 39.37 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0884f1b4-225d-4ff8-b489-32cbbb13499b)
@@ -864,17 +860,21 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid c39b034a-bd24-4c1d-a551-866af3c7e529)
     )
-    (pin "ENABLE_PERIPHERAL" input (at 148.59 46.99 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid bd7a3966-1764-4183-8879-71d65d3517bb)
-    )
-    (pin "ENABLE_BOOSTED" input (at 148.59 49.53 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid a510fb08-f522-4834-8e94-0f268e2185bb)
-    )
-    (pin "VBOOSTED" passive (at 180.34 41.91 0)
+    (pin "VLED" passive (at 180.34 39.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
-      (uuid bd7f6cfc-64b7-41db-a0fa-8720019a7fb1)
+      (uuid a1c5710e-44b2-4a12-8427-b9db90d78878)
+    )
+    (pin "ENABLE_SERVO" input (at 148.59 49.53 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 68109053-7ecb-4500-962c-567284cfd198)
+    )
+    (pin "VSERVO" passive (at 180.34 41.91 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid ca808c4f-39cb-4d9a-8ddb-4aa117d6ab16)
+    )
+    (pin "ENABLE_LED" input (at 148.59 46.99 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid b6d28695-ef1d-459f-a072-dc804daf39d6)
     )
   )
 
@@ -1058,56 +1058,58 @@
     (path "/ba7902c8-ef45-407b-94b0-d9c747cdabc9" (page "5"))
     (path "/3b57f4fe-133d-498f-bd73-d40ea34b3dad" (page "6"))
     (path "/5a587278-0eec-4b8f-b1d6-43d5ddf30d13" (page "7"))
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c" (page "8"))
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f" (page "9"))
   )
 
   (symbol_instances
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/8e033e98-a73f-4e07-b564-ba8f1320f212"
-      (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/3cd82d1c-ae90-4a27-930e-2a9a613922e2"
-      (reference "C1") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
-    )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/09d6d675-c04a-493f-9aa7-d3fad0b78273"
-      (reference "C2") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
-    )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/5f56fd32-39a4-4826-a68d-93cb8a85fd7f"
-      (reference "C3") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
-    )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/af3623f5-6622-4eea-ba6e-10af4e23bc84"
-      (reference "C4") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C1") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/cdb38568-d360-48e2-91a6-9111463c25b6"
-      (reference "C5") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C2") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/fa592b52-9614-4fac-a858-c9e17f09f726"
-      (reference "C6") (unit 1) (value "C_10uF_0402_POL") (footprint "Janelia:SM0402_POL")
+      (reference "C3") (unit 1) (value "C_10uF_0402_POL") (footprint "Janelia:SM0402_POL")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/fecc76d0-489c-4b6d-ac7b-bcee04ee466f"
-      (reference "C7") (unit 1) (value "C_10uF_0402_POL") (footprint "Janelia:SM0402_POL")
+      (reference "C4") (unit 1) (value "C_10uF_0402_POL") (footprint "Janelia:SM0402_POL")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/009b004e-e904-4e58-8b30-c19e511ba0a3"
-      (reference "C8") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C5") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/afc3c347-523d-413b-a13b-43c501028b7a"
-      (reference "C9") (unit 1) (value "C_1uF_0402_POL") (footprint "Janelia:SM0402_POL")
+      (reference "C6") (unit 1) (value "C_1uF_0402_POL") (footprint "Janelia:SM0402_POL")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/a01821f0-a944-4b39-a0de-219af7ba33ab"
-      (reference "C10") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C7") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/63981df2-6365-426b-91a2-0a3730bf331a/9073ed42-e41c-4b6d-8b94-c10b701c69c9"
-      (reference "C11") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
-    )
-    (path "/ba7902c8-ef45-407b-94b0-d9c747cdabc9/ba0ae8f5-6158-4946-9b12-22047f19a3cb"
-      (reference "C12") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
-    )
-    (path "/ba7902c8-ef45-407b-94b0-d9c747cdabc9/bca418bb-96a4-45de-b423-cc8e05d860ad"
-      (reference "C13") (unit 1) (value "C_10uF_0402_POL") (footprint "Janelia:SM0402_POL")
+      (reference "C8") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/3b57f4fe-133d-498f-bd73-d40ea34b3dad/18d35982-e657-407d-ae93-3bb466eb7f23"
-      (reference "C14") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C9") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
     )
     (path "/3b57f4fe-133d-498f-bd73-d40ea34b3dad/91578d56-9742-4782-9cff-ed664f9474e8"
-      (reference "C15") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+      (reference "C10") (unit 1) (value "C_0.1uF_0402") (footprint "Janelia:SM0402")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/4ab734f4-3035-4b34-b020-286175c9d318"
+      (reference "C11") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/4ea267b4-d189-4639-91b6-d1df95a21e5a"
+      (reference "C12") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/8569c6b2-7d24-466b-9865-8b78f1e1774b"
+      (reference "C13") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/4ab734f4-3035-4b34-b020-286175c9d318"
+      (reference "C14") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/4ea267b4-d189-4639-91b6-d1df95a21e5a"
+      (reference "C15") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/8569c6b2-7d24-466b-9865-8b78f1e1774b"
+      (reference "C16") (unit 1) (value "C_10uF_0603") (footprint "Janelia:SM0603")
     )
     (path "/78609776-14fe-41ec-972c-2bdc49eac818"
       (reference "FW1") (unit 1) (value "FEATHERWING_nRF52_POGO_PINS") (footprint "Janelia:FEATHERWING_POGO_PINS")
@@ -1130,32 +1132,35 @@
     (path "/5a587278-0eec-4b8f-b1d6-43d5ddf30d13/e4ed369b-7a21-47ca-97e7-c8cfee399657"
       (reference "J6") (unit 1) (value "HEADER_01X03_JST_ZH_SMD_VERTICAL") (footprint "Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/62663f1f-0d6a-4973-95bf-52a04f1b5336"
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/8ca9c524-e1b3-4ce2-ab12-49a68a490158"
       (reference "L1") (unit 1) (value "2.2uH") (footprint "Janelia:INDUCTOR_VLS_HBX")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ab142e9c-269c-4749-bf0a-3cc0397cc4cb"
-      (reference "Q1") (unit 1) (value "MOSFET-N-CH-EN") (footprint "Janelia:SOT-23-3")
-    )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/2245e7f6-5407-4c1b-89be-95552d83a744"
-      (reference "Q2") (unit 1) (value "MOSFET-P-CH-EN") (footprint "Janelia:SOT-23-3")
-    )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/24cbf393-17fe-40de-b148-5fdc68702f8f"
-      (reference "R1") (unit 1) (value "R_110k_0402") (footprint "Janelia:SM0402")
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/8ca9c524-e1b3-4ce2-ab12-49a68a490158"
+      (reference "L2") (unit 1) (value "2.2uH") (footprint "Janelia:INDUCTOR_VLS_HBX")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/d271db0e-3caf-4df3-8d2a-fb3b0ff392cd"
+      (reference "R1") (unit 1) (value "R_5.1k_0402") (footprint "Janelia:SM0402")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/1a1e86c8-3a4b-4774-b8e6-2e52dff0cf94"
       (reference "R2") (unit 1) (value "R_5.1k_0402") (footprint "Janelia:SM0402")
     )
-    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/5f1a735f-b026-44cc-9615-64817515313c"
-      (reference "U1") (unit 1) (value "BOOST_5V_RP402N501F") (footprint "Janelia:SOT-23-5")
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/1a1e86c8-3a4b-4774-b8e6-2e52dff0cf94"
+      (reference "R3") (unit 1) (value "R_5.1k_0402") (footprint "Janelia:SM0402")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/da95f1b2-1af2-47f6-bf0e-981916e2aac9"
-      (reference "U2") (unit 1) (value "DRV8311H") (footprint "Janelia:WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm_ThermalVias")
+      (reference "U1") (unit 1) (value "DRV8311H") (footprint "Janelia:WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm_ThermalVias")
     )
     (path "/63981df2-6365-426b-91a2-0a3730bf331a/9ab6c0ae-2710-4d67-8c32-184c13eaa10f"
-      (reference "U3") (unit 1) (value "AS5047P") (footprint "Janelia:TSSOP-14_4.4x5mm_P0.65mm")
+      (reference "U2") (unit 1) (value "AS5047P") (footprint "Janelia:TSSOP-14_4.4x5mm_P0.65mm")
     )
     (path "/3b57f4fe-133d-498f-bd73-d40ea34b3dad/c5b46a71-e800-4058-b91d-e253f4711104"
-      (reference "U4") (unit 1) (value "LT_SN74LVC2T45DCUT") (footprint "Janelia:VSSOP-8_2.4x2.1mm_P0.5mm")
+      (reference "U3") (unit 1) (value "LT_SN74LVC2T45DCUT") (footprint "Janelia:VSSOP-8_2.4x2.1mm_P0.5mm")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/243a90c8-4ed6-436a-83ba-3e4f5ad0d5e7"
+      (reference "U4") (unit 1) (value "BOOST_5V_RP402N501F") (footprint "Janelia:SOT-23-5")
+    )
+    (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/243a90c8-4ed6-436a-83ba-3e4f5ad0d5e7"
+      (reference "U5") (unit 1) (value "BOOST_5V_RP402N501F") (footprint "Janelia:SOT-23-5")
     )
   )
 )
