@@ -6,6 +6,7 @@
 
   (title_block
     (title "biym-board-power-boost")
+    (rev "1.0")
   )
 
   (lib_symbols

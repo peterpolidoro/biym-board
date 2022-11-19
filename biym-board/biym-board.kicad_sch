@@ -6,8 +6,8 @@
 
   (title_block
     (title "biym-board")
-    (date "2022-11-17")
-    (rev "0.1")
+    (date "2022-11-19")
+    (rev "1.0")
     (company "Peter Polidoro")
   )
 
@@ -321,7 +321,7 @@
   )
 
 
-  (no_connect (at 54.61 101.6) (uuid 1baeecc6-190d-4d02-97a0-0cddb4aa73d1))
+  (no_connect (at 54.61 86.36) (uuid 1baeecc6-190d-4d02-97a0-0cddb4aa73d1))
   (no_connect (at 54.61 96.52) (uuid 296fa677-4ce6-4503-9bd2-ece2fe1f1c8b))
   (no_connect (at 54.61 81.28) (uuid 32ff0a44-54be-4baf-9bf9-02edd44c8e73))
   (no_connect (at 97.79 96.52) (uuid 89c705b2-0516-430e-876c-320ba18c7c9e))
@@ -349,7 +349,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0ee6d201-0705-4e1f-93ad-b0fe318e430a)
   )
-  (wire (pts (xy 54.61 86.36) (xy 52.07 86.36))
+  (wire (pts (xy 54.61 101.6) (xy 52.07 101.6))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1c965eb7-1b73-484d-98f3-6dcd2d45e09c)
   )
@@ -558,7 +558,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0056355f-547d-438b-b84d-9dd10de6d901)
   )
-  (label "ENABLE_LED_POWER" (at 52.07 86.36 180)
+  (label "ENABLE_LED_POWER" (at 52.07 101.6 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 04548913-3a96-4606-940e-ee5f4be5922c)
   )
