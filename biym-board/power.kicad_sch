@@ -6,8 +6,8 @@
 
   (title_block
     (title "biym-board-power")
-    (date "2022-11-17")
-    (rev "1.0")
+    (date "2022-11-20")
+    (rev "1.1")
     (company "Peter Polidoro")
   )
 
@@ -234,7 +234,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 7f68221f-2146-4876-8266-973547afa80f)
-    (property "Sheet name" "boost_servo" (id 0) (at 135.89 94.5384 0)
+    (property "Sheet name" "boost-servo" (id 0) (at 135.89 94.5384 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "boost.kicad_sch" (id 1) (at 135.89 108.5346 0)
@@ -262,7 +262,7 @@
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid ca28fe57-26cd-4ef6-98ec-2d114184fa5c)
-    (property "Sheet name" "boost_led" (id 0) (at 135.89 64.0584 0)
+    (property "Sheet name" "boost-led" (id 0) (at 135.89 64.0584 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "boost.kicad_sch" (id 1) (at 135.89 78.0546 0)

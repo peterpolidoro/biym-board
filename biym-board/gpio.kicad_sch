@@ -6,8 +6,8 @@
 
   (title_block
     (title "biym-board-gpio")
-    (date "2022-11-17")
-    (rev "1.0")
+    (date "2022-11-20")
+    (rev "1.1")
     (company "Peter Polidoro")
   )
 

@@ -6,8 +6,8 @@
 
   (title_block
     (title "biym-board-encoder")
-    (date "2022-11-17")
-    (rev "1.0")
+    (date "2022-11-20")
+    (rev "1.1")
     (company "Peter Polidoro")
   )
 
@@ -327,7 +327,7 @@
     (property "Reference" "C8" (id 0) (at 154.94 58.42 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "C_0.1uF_0402" (id 1) (at 154.94 60.96 0)
+    (property "Value" "0.1uF" (id 1) (at 154.94 60.96 0)
       (effects (font (size 0.762 0.762)) (justify left))
     )
     (property "Footprint" "Janelia:SM0402" (id 2) (at 153.3652 64.77 0)

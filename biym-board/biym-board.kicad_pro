@@ -386,9 +386,7 @@
           "/driver/MOTOR_A",
           "/driver/MOTOR_B",
           "/driver/MOTOR_C",
-          "/driver/VDD",
-          "/power/boost_led/LX",
-          "/power/boost_servo/LX"
+          "/driver/VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -430,12 +428,6 @@
           "/~{DRIVER_FAULT}",
           "/~{DRIVER_SLEEP}",
           "/~{ENCODER_CS}",
-          "unconnected-(FW1-Pad1)",
-          "unconnected-(FW1-Pad26)",
-          "unconnected-(FW1-Pad5)",
-          "unconnected-(FW1-Pad6)",
-          "unconnected-(FW1-Pad7)",
-          "unconnected-(FW1-Pad8)",
           "unconnected-(U1-Pad21)",
           "unconnected-(U1-Pad22)",
           "unconnected-(U1-Pad23)",
@@ -523,7 +515,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../images/",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -560,11 +552,15 @@
     ],
     [
       "ca28fe57-26cd-4ef6-98ec-2d114184fa5c",
-      "boost_led"
+      "boost-led"
     ],
     [
       "7f68221f-2146-4876-8266-973547afa80f",
-      "boost_servo"
+      "boost-servo"
+    ],
+    [
+      "a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb",
+      "featherwing-nrf52-pogo"
     ]
   ],
   "text_variables": {}

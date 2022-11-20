@@ -6,7 +6,9 @@
 
   (title_block
     (title "biym-board-power-boost")
-    (rev "1.0")
+    (date "2022-11-20")
+    (rev "1.1")
+    (company "Peter Polidoro")
   )
 
   (lib_symbols
@@ -434,7 +436,7 @@
     (property "Reference" "R2" (id 0) (at 101.6 114.3 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "R_5.1k_0402" (id 1) (at 101.6 116.84 0)
+    (property "Value" "5.1k" (id 1) (at 101.6 116.84 0)
       (effects (font (size 0.762 0.762)) (justify left))
     )
     (property "Footprint" "Janelia:SM0402" (id 2) (at 98.552 115.57 90)
@@ -511,7 +513,7 @@
     (property "Reference" "C11" (id 0) (at 101.6 82.55 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "C_10uF_0603" (id 1) (at 102.87 85.09 0)
+    (property "Value" "10uF" (id 1) (at 102.87 85.09 0)
       (effects (font (size 0.762 0.762)) (justify left))
     )
     (property "Footprint" "Janelia:SM0603" (id 2) (at 101.2952 88.9 0)
@@ -548,7 +550,7 @@
     (property "Reference" "C12" (id 0) (at 156.21 85.09 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "C_10uF_0603" (id 1) (at 157.48 87.63 0)
+    (property "Value" "10uF" (id 1) (at 157.48 87.63 0)
       (effects (font (size 0.762 0.762)) (justify left))
     )
     (property "Footprint" "Janelia:SM0603" (id 2) (at 155.9052 91.44 0)
@@ -585,7 +587,7 @@
     (property "Reference" "C13" (id 0) (at 172.72 85.09 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Value" "C_10uF_0603" (id 1) (at 173.99 87.63 0)
+    (property "Value" "10uF" (id 1) (at 173.99 87.63 0)
       (effects (font (size 0.762 0.762)) (justify left))
     )
     (property "Footprint" "Janelia:SM0603" (id 2) (at 172.4152 91.44 0)
