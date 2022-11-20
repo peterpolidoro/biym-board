@@ -979,7 +979,7 @@
   )
 
   (symbol (lib_id "Janelia:FEATHERWING_nRF52") (at 143.51 99.06 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid a9d03b37-2be5-4c8d-800f-d7648de4fc79)
     (property "Reference" "FW1" (id 0) (at 143.51 73.66 0))
     (property "Value" "FEATHERWING_nRF52" (id 1) (at 143.51 124.46 0))
