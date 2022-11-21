@@ -12,4 +12,7 @@
    "git"
    "emacs"
    "emacs-org"
-   "emacs-ox-gfm"))
+   "emacs-ox-gfm"
+   "imagemagick"
+   "python"
+   "python-kicad-bom"))
