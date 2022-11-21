@@ -1,0 +1,1666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/polidorop/Repositories/biym/biym-board/biym-board/biym-board.kicad_sch</source>
+    <date>Sun Nov 20 21:16:39 2022</date>
+    <tool>Eeschema 6.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>biym-board</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>biym-board.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/">
+      <title_block>
+        <title>biym-board-power</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/">
+      <title_block>
+        <title>biym-board-driver</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>driver.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/encoder/" tstamps="/63981df2-6365-426b-91a2-0a3730bf331a/">
+      <title_block>
+        <title>biym-board-encoder</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>encoder.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/led/" tstamps="/ba7902c8-ef45-407b-94b0-d9c747cdabc9/">
+      <title_block>
+        <title>biym-board-led</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>led.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/">
+      <title_block>
+        <title>biym-board-servo</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>servo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/gpio/" tstamps="/5a587278-0eec-4b8f-b1d6-43d5ddf30d13/">
+      <title_block>
+        <title>biym-board-gpio</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>gpio.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/">
+      <title_block>
+        <title>biym-board-power-boost</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>boost.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/">
+      <title_block>
+        <title>biym-board-power-boost</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>boost.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/">
+      <title_block>
+        <title>biym-board-featherwing</title>
+        <company>Peter Polidoro</company>
+        <rev>1.2</rev>
+        <date>2022-11-20</date>
+        <source>featherwing-nrf52-pogo.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>HEADER_01X02_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B2B_ZR_SM4_TF_1x02-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 2POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B2B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B2B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X02_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 2POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 2POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B2B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="B2B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Sheetname" value="power"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/power/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/"/>
+      <tstamps>61042257-e77f-4a8b-b0c4-d80b925f282a</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>af3623f5-6622-4eea-ba6e-10af4e23bc84</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>cdb38568-d360-48e2-91a6-9111463c25b6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Janelia:SM0402_POL</footprint>
+      <fields>
+        <field name="Description">CAP TANT 10UF 20% 6.3V</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer Part Number">TLCK106M006QTA</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">478-5343-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0402_POL" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="478-5343-1-ND"/>
+      <property name="Description" value="CAP TANT 10UF 20% 6.3V"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Manufacturer Part Number" value="TLCK106M006QTA"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>fa592b52-9614-4fac-a858-c9e17f09f726</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Janelia:SM0402_POL</footprint>
+      <fields>
+        <field name="Description">CAP TANT 10UF 20% 6.3V</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer Part Number">TLCK106M006QTA</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">478-5343-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0402_POL" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="478-5343-1-ND"/>
+      <property name="Description" value="CAP TANT 10UF 20% 6.3V"/>
+      <property name="Manufacturer" value="AVX Corporation"/>
+      <property name="Manufacturer Part Number" value="TLCK106M006QTA"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>fecc76d0-489c-4b6d-ac7b-bcee04ee466f</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>009b004e-e904-4e58-8b30-c19e511ba0a3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Janelia:SM0402_POL</footprint>
+      <fields>
+        <field name="Description">CAP TANT 1UF 20% 16V</field>
+        <field name="Manufacturer">Vishay Sprague</field>
+        <field name="Manufacturer Part Number">298D105X0016K2T</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">718-1618-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_1uF_0402_POL" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="718-1618-1-ND"/>
+      <property name="Description" value="CAP TANT 1UF 20% 16V"/>
+      <property name="Manufacturer" value="Vishay Sprague"/>
+      <property name="Manufacturer Part Number" value="298D105X0016K2T"/>
+      <property name="Package" value="0402"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>afc3c347-523d-413b-a13b-43c501028b7a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>a01821f0-a944-4b39-a0de-219af7ba33ab</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>HEADER_01X03_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 3POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X03_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>fb840d72-2821-43fe-b288-48ace4687626</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5.1k</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 5.1 KOHM 1% 1/5W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA2F5101X</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124488CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="R_5.1k_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P124488CT-ND"/>
+      <property name="Description" value="RES SMD 5.1 KOHM 1% 1/5W"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PA2F5101X"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>d271db0e-3caf-4df3-8d2a-fb3b0ff392cd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DRV8311H</value>
+      <footprint>Janelia:WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm_ThermalVias</footprint>
+      <fields>
+        <field name="Description">24V ABS MAX 3 TO 20V 3-PHASE B</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">DRV8311HRRWR</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-DRV8311HRRWRCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="DRV8311H" description=""/>
+      <property name="Vendor Part Number" value="296-DRV8311HRRWRCT-ND"/>
+      <property name="Description" value="24V ABS MAX 3 TO 20V 3-PHASE B"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="DRV8311HRRWR"/>
+      <property name="Sheetname" value="driver"/>
+      <property name="Sheetfile" value="driver.kicad_sch"/>
+      <sheetpath names="/driver/" tstamps="/79116d11-26fd-48fc-b8f9-7a7b774125a1/"/>
+      <tstamps>da95f1b2-1af2-47f6-bf0e-981916e2aac9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="encoder"/>
+      <property name="Sheetfile" value="encoder.kicad_sch"/>
+      <sheetpath names="/encoder/" tstamps="/63981df2-6365-426b-91a2-0a3730bf331a/"/>
+      <tstamps>9073ed42-e41c-4b6d-8b94-c10b701c69c9</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AS5047P</value>
+      <footprint>Janelia:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <fields>
+        <field name="Description">ROTARY ENCODER MAGNETIC PROG</field>
+        <field name="Manufacturer">Osram</field>
+        <field name="Manufacturer Part Number">AS5047P-ATSM</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">AS5047P-ATSMCT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="AS5047P" description=""/>
+      <property name="Vendor Part Number" value="AS5047P-ATSMCT-ND"/>
+      <property name="Description" value="ROTARY ENCODER MAGNETIC PROG"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Manufacturer" value="Osram"/>
+      <property name="Manufacturer Part Number" value="AS5047P-ATSM"/>
+      <property name="Sheetname" value="encoder"/>
+      <property name="Sheetfile" value="encoder.kicad_sch"/>
+      <sheetpath names="/encoder/" tstamps="/63981df2-6365-426b-91a2-0a3730bf331a/"/>
+      <tstamps>9ab6c0ae-2710-4d67-8c32-184c13eaa10f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>HEADER_01X04_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B4B_ZR_SM4_TF_1x04-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 4POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B4B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">455-1683-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X04_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 4POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 4POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B4B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="455-1683-1-ND"/>
+      <property name="Sheetname" value="led"/>
+      <property name="Sheetfile" value="led.kicad_sch"/>
+      <sheetpath names="/led/" tstamps="/ba7902c8-ef45-407b-94b0-d9c747cdabc9/"/>
+      <tstamps>47c005fe-281c-44ff-80fe-aec8309907ea</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="servo"/>
+      <property name="Sheetfile" value="servo.kicad_sch"/>
+      <sheetpath names="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/"/>
+      <tstamps>18d35982-e657-407d-ae93-3bb466eb7f23</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_0.1uF_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="311-1375-1-ND"/>
+      <property name="Description" value="CAP CER 0.1UF 25V Y5V"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Manufacturer Part Number" value="CC0402ZRY5V8BB104"/>
+      <property name="Sheetname" value="servo"/>
+      <property name="Sheetfile" value="servo.kicad_sch"/>
+      <sheetpath names="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/"/>
+      <tstamps>91578d56-9742-4782-9cff-ed664f9474e8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>HEADER_01X03_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 3POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X03_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Sheetname" value="servo"/>
+      <property name="Sheetfile" value="servo.kicad_sch"/>
+      <sheetpath names="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/"/>
+      <tstamps>cbeba597-78a4-479a-8c2a-684029865152</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>HEADER_01X03_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 3POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X03_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Sheetname" value="servo"/>
+      <property name="Sheetfile" value="servo.kicad_sch"/>
+      <sheetpath names="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/"/>
+      <tstamps>8bd8d815-a6b4-4715-a463-438fddf96d62</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LT_SN74LVC2T45DCUT</value>
+      <footprint>Janelia:VSSOP-8_2.4x2.1mm_P0.5mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</datasheet>
+      <fields>
+        <field name="Description">IC TRNSLTR BIDIRECTIONAL US8</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">SN74LVC2T45DCUT</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-32331-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="LT_SN74LVC2T45DCUT" description="Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8"/>
+      <property name="Description" value="IC TRNSLTR BIDIRECTIONAL US8"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="Manufacturer Part Number" value="SN74LVC2T45DCUT"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="296-32331-1-ND"/>
+      <property name="Sheetname" value="servo"/>
+      <property name="Sheetfile" value="servo.kicad_sch"/>
+      <sheetpath names="/servo/" tstamps="/3b57f4fe-133d-498f-bd73-d40ea34b3dad/"/>
+      <tstamps>c5b46a71-e800-4058-b91d-e253f4711104</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>HEADER_01X03_JST_ZH_SMD_VERTICAL</value>
+      <footprint>Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical</footprint>
+      <fields>
+        <field name="Description">CONN HEADER SMD 3POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <libsource lib="Janelia" part="HEADER_01X03_JST_ZH_SMD_VERTICAL" description="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Description" value="CONN HEADER SMD 3POS 1.5MM"/>
+      <property name="Manufacturer" value="JST Sales America Inc."/>
+      <property name="Manufacturer Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="B3B-ZR-SM4-TF(LF)(SN)"/>
+      <property name="Sheetname" value="gpio"/>
+      <property name="Sheetfile" value="gpio.kicad_sch"/>
+      <sheetpath names="/gpio/" tstamps="/5a587278-0eec-4b8f-b1d6-43d5ddf30d13/"/>
+      <tstamps>e4ed369b-7a21-47ca-97e7-c8cfee399657</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>4ab734f4-3035-4b34-b020-286175c9d318</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>4ea267b4-d189-4639-91b6-d1df95a21e5a</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>8569c6b2-7d24-466b-9865-8b78f1e1774b</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.2uH</value>
+      <footprint>Janelia:INDUCTOR_VLS_HBX</footprint>
+      <fields>
+        <field name="Description">FIXED IND 2.2UH 3.15A 106MOHM SM</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">VLS3012HBX-2R2M</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-175069-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="L_2.2uH_3A" description="Inductor"/>
+      <property name="Description" value="FIXED IND 2.2UH 3.15A 106MOHM SM"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Manufacturer Part Number" value="VLS3012HBX-2R2M"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="445-175069-1-ND"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>8ca9c524-e1b3-4ce2-ab12-49a68a490158</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>5.1k</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 5.1 KOHM 1% 1/5W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA2F5101X</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124488CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="R_5.1k_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P124488CT-ND"/>
+      <property name="Description" value="RES SMD 5.1 KOHM 1% 1/5W"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PA2F5101X"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>1a1e86c8-3a4b-4774-b8e6-2e52dff0cf94</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>BOOST_5V_RP402N501F</value>
+      <footprint>Janelia:SOT-23-5</footprint>
+      <fields>
+        <field name="Description">PWM/VFM STEP-UP DCDC CONVERTER W</field>
+        <field name="Manufacturer">Nisshinbo Micro Devices Inc.</field>
+        <field name="Manufacturer Part Number">RP402N501F-TR-FE</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">2129-RP402N501F-TR-FECT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="BOOST_5V_RP402N501F" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="2129-RP402N501F-TR-FECT-ND"/>
+      <property name="Description" value="PWM/VFM STEP-UP DCDC CONVERTER W"/>
+      <property name="Manufacturer" value="Nisshinbo Micro Devices Inc."/>
+      <property name="Manufacturer Part Number" value="RP402N501F-TR-FE"/>
+      <property name="Package" value="SOT-23-5"/>
+      <property name="Sheetname" value="boost-led"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-led/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/ca28fe57-26cd-4ef6-98ec-2d114184fa5c/"/>
+      <tstamps>243a90c8-4ed6-436a-83ba-3e4f5ad0d5e7</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>4ab734f4-3035-4b34-b020-286175c9d318</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>4ea267b4-d189-4639-91b6-d1df95a21e5a</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>10uF</value>
+      <footprint>Janelia:SM0603</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="C_10uF_0603" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="490-6405-1-ND"/>
+      <property name="Description" value="CAP CER 10UF 6.3V X5R"/>
+      <property name="Package" value="0603 (1608 Metric)"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="Manufacturer Part Number" value="GRM188R60J106ME47J"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>8569c6b2-7d24-466b-9865-8b78f1e1774b</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.2uH</value>
+      <footprint>Janelia:INDUCTOR_VLS_HBX</footprint>
+      <fields>
+        <field name="Description">FIXED IND 2.2UH 3.15A 106MOHM SM</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">VLS3012HBX-2R2M</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-175069-1-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="L_2.2uH_3A" description="Inductor"/>
+      <property name="Description" value="FIXED IND 2.2UH 3.15A 106MOHM SM"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="Manufacturer Part Number" value="VLS3012HBX-2R2M"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="445-175069-1-ND"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>8ca9c524-e1b3-4ce2-ab12-49a68a490158</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>Janelia:SM0402</footprint>
+      <fields>
+        <field name="Description">RES SMD 5.1 KOHM 1% 1/5W</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA2F5101X</field>
+        <field name="Package">0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124488CT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="R_5.1k_0402" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="P124488CT-ND"/>
+      <property name="Description" value="RES SMD 5.1 KOHM 1% 1/5W"/>
+      <property name="Package" value="0402"/>
+      <property name="Manufacturer" value="Panasonic Electronic Components"/>
+      <property name="Manufacturer Part Number" value="ERJ-PA2F5101X"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>1a1e86c8-3a4b-4774-b8e6-2e52dff0cf94</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>BOOST_5V_RP402N501F</value>
+      <footprint>Janelia:SOT-23-5</footprint>
+      <fields>
+        <field name="Description">PWM/VFM STEP-UP DCDC CONVERTER W</field>
+        <field name="Manufacturer">Nisshinbo Micro Devices Inc.</field>
+        <field name="Manufacturer Part Number">RP402N501F-TR-FE</field>
+        <field name="Package">SOT-23-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">2129-RP402N501F-TR-FECT-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="BOOST_5V_RP402N501F" description=""/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="2129-RP402N501F-TR-FECT-ND"/>
+      <property name="Description" value="PWM/VFM STEP-UP DCDC CONVERTER W"/>
+      <property name="Manufacturer" value="Nisshinbo Micro Devices Inc."/>
+      <property name="Manufacturer Part Number" value="RP402N501F-TR-FE"/>
+      <property name="Package" value="SOT-23-5"/>
+      <property name="Sheetname" value="boost-servo"/>
+      <property name="Sheetfile" value="boost.kicad_sch"/>
+      <sheetpath names="/power/boost-servo/" tstamps="/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/"/>
+      <tstamps>243a90c8-4ed6-436a-83ba-3e4f5ad0d5e7</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>7e1f8c14-a397-4d3c-9d8b-4d6788cff274</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>0df15a88-88a4-4482-a181-5f2e38d647e4</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>60c15f0c-f032-4887-bafe-909957879ef7</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>b15e0f91-954b-43ce-94b6-7752f0db309c</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>7ab950e7-9bde-40b7-b26a-ef4a48785f51</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>f6a1d72d-a76c-4957-9ee8-208aaabb84a2</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>POGO_01X04_0.1IN_1_SMD</value>
+      <footprint>Janelia:POGO_01x04_0.1in_SMD</footprint>
+      <fields>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+      </fields>
+      <libsource lib="Janelia" part="POGO_01X04_0.1IN_1_SMD" description="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Vendor" value="Digi-Key"/>
+      <property name="Vendor Part Number" value="ED8111-04-ND"/>
+      <property name="Description" value="4 Position Spring Piston Connector Surface Mount"/>
+      <property name="Manufacturer" value="Mill-Max Manufacturing Corp."/>
+      <property name="Manufacturer Part Number" value="811-22-004-30-001101"/>
+      <property name="Sheetname" value="featherwing-nrf52-pogo"/>
+      <property name="Sheetfile" value="featherwing-nrf52-pogo.kicad_sch"/>
+      <sheetpath names="/featherwing-nrf52-pogo/" tstamps="/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/"/>
+      <tstamps>59d03c2a-dfa3-4df0-bf00-1af9dc54dcf2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Janelia" part="AS5047P">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5047P</field>
+        <field name="Footprint">Janelia:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Vendor Part Number">AS5047P-ATSMCT-ND</field>
+        <field name="Description">ROTARY ENCODER MAGNETIC PROG</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Manufacturer">Osram</field>
+        <field name="Manufacturer Part Number">AS5047P-ATSM</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="power_in"/>
+        <pin num="6" name="B" type="output"/>
+        <pin num="7" name="A" type="output"/>
+        <pin num="8" name="W/PWM" type="output"/>
+        <pin num="9" name="V" type="output"/>
+        <pin num="10" name="U" type="output"/>
+        <pin num="11" name="VDD" type="power_in"/>
+        <pin num="12" name="VDD3V3" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="I/PWM" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="BOOST_5V_RP402N501F">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BOOST_5V_RP402N501F</field>
+        <field name="Footprint">Janelia:SOT-23-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">2129-RP402N501F-TR-FECT-ND</field>
+        <field name="Description">PWM/VFM STEP-UP DCDC CONVERTER W</field>
+        <field name="Manufacturer">Nisshinbo Micro Devices Inc.</field>
+        <field name="Manufacturer Part Number">RP402N501F-TR-FE</field>
+        <field name="Package">SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LX" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_0.1uF_0402">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0.1uF_0402</field>
+        <field name="Footprint">Janelia:SM0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">311-1375-1-ND</field>
+        <field name="Description">CAP CER 0.1UF 25V Y5V</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer Part Number">CC0402ZRY5V8BB104</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_10uF_0402_POL">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_0402_POL</field>
+        <field name="Footprint">Janelia:SM0402_POL</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">478-5343-1-ND</field>
+        <field name="Description">CAP TANT 10UF 20% 6.3V</field>
+        <field name="Manufacturer">AVX Corporation</field>
+        <field name="Manufacturer Part Number">TLCK106M006QTA</field>
+        <field name="Package">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_10uF_0603">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_0603</field>
+        <field name="Footprint">Janelia:SM0603</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">490-6405-1-ND</field>
+        <field name="Description">CAP CER 10UF 6.3V X5R</field>
+        <field name="Package">0603 (1608 Metric)</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Manufacturer Part Number">GRM188R60J106ME47J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="C_1uF_0402_POL">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF_0402_POL</field>
+        <field name="Footprint">Janelia:SM0402_POL</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">718-1618-1-ND</field>
+        <field name="Description">CAP TANT 1UF 20% 16V</field>
+        <field name="Manufacturer">Vishay Sprague</field>
+        <field name="Manufacturer Part Number">298D105X0016K2T</field>
+        <field name="Package">0402</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="DRV8311H">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV8311H</field>
+        <field name="Footprint">Janelia:WQFN-24-1EP_3x3mm_P0.4mm_EP1.9x1.9mm_ThermalVias</field>
+        <field name="Vendor Part Number">296-DRV8311HRRWRCT-ND</field>
+        <field name="Description">24V ABS MAX 3 TO 20V 3-PHASE B</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">DRV8311HRRWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{FAULT}" type="open_collector"/>
+        <pin num="2" name="CSAREF" type="passive"/>
+        <pin num="3" name="SOC" type="output"/>
+        <pin num="4" name="SOB" type="output"/>
+        <pin num="5" name="SOA" type="output"/>
+        <pin num="6" name="CP" type="passive"/>
+        <pin num="7" name="VIN_AVDD" type="power_in"/>
+        <pin num="8" name="VM" type="power_in"/>
+        <pin num="9" name="PGND" type="power_in"/>
+        <pin num="10" name="OUTA" type="power_out"/>
+        <pin num="11" name="OUTB" type="power_out"/>
+        <pin num="12" name="OUTC" type="power_out"/>
+        <pin num="13" name="INHC" type="input"/>
+        <pin num="14" name="INHB" type="input"/>
+        <pin num="15" name="INHA" type="input"/>
+        <pin num="16" name="AGND" type="power_in"/>
+        <pin num="17" name="AVDD" type="power_out"/>
+        <pin num="18" name="INLA" type="input"/>
+        <pin num="19" name="INLB" type="input"/>
+        <pin num="20" name="INLC" type="input"/>
+        <pin num="21" name="GAIN" type="input"/>
+        <pin num="22" name="SLEW" type="input"/>
+        <pin num="23" name="MODE" type="input"/>
+        <pin num="24" name="~{SLEEP}" type="input"/>
+        <pin num="25" name="PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="FEATHERWING_nRF52">
+      <fields>
+        <field name="Reference">FW</field>
+        <field name="Value">FEATHERWING_nRF52</field>
+        <field name="Footprint">Janelia:FEATHERWING</field>
+      </fields>
+    </libpart>
+    <libpart lib="Janelia" part="FIDUCIAL_0.5mm_MASK1mm">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL_0.5mm_MASK1mm</field>
+        <field name="Footprint">Janelia:FIDUCIAL_0.5mm_Mask1mm</field>
+      </fields>
+    </libpart>
+    <libpart lib="Janelia" part="HEADER_01X02_JST_ZH_SMD_VERTICAL">
+      <description>CONN HEADER SMD 2POS 1.5MM</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_01X02_JST_ZH_SMD_VERTICAL</field>
+        <field name="Footprint">Janelia:JST_ZH_B2B_ZR_SM4_TF_1x02-1MP_P1.50mm_Vertical</field>
+        <field name="Description">CONN HEADER SMD 2POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B2B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B2B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="HEADER_01X03_JST_ZH_SMD_VERTICAL">
+      <description>CONN HEADER SMD 3POS 1.5MM</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_01X03_JST_ZH_SMD_VERTICAL</field>
+        <field name="Footprint">Janelia:JST_ZH_B3B_ZR_SM4_TF_1x03-1MP_P1.50mm_Vertical</field>
+        <field name="Description">CONN HEADER SMD 3POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">B3B-ZR-SM4-TF(LF)(SN)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="HEADER_01X04_JST_ZH_SMD_VERTICAL">
+      <description>CONN HEADER SMD 4POS 1.5MM</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_01X04_JST_ZH_SMD_VERTICAL</field>
+        <field name="Footprint">Janelia:JST_ZH_B4B_ZR_SM4_TF_1x04-1MP_P1.50mm_Vertical</field>
+        <field name="Description">CONN HEADER SMD 4POS 1.5MM</field>
+        <field name="Manufacturer">JST Sales America Inc.</field>
+        <field name="Manufacturer Part Number">B4B-ZR-SM4-TF(LF)(SN)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">455-1683-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="LT_SN74LVC2T45DCUT">
+      <description>Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, VSSOP-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</docs>
+      <footprints>
+        <fp>VSSOP*2.4x2.1mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT_SN74LVC2T45DCUT</field>
+        <field name="Footprint">Janelia:VSSOP-8_2.4x2.1mm_P0.5mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74lvc2t45.pdf</field>
+        <field name="Description">IC TRNSLTR BIDIRECTIONAL US8</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer Part Number">SN74LVC2T45DCUT</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">296-32331-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="bidirectional"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DIR" type="input"/>
+        <pin num="6" name="B2" type="bidirectional"/>
+        <pin num="7" name="B1" type="bidirectional"/>
+        <pin num="8" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="L_2.2uH_3A">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_2.2uH_3A</field>
+        <field name="Footprint">Janelia:INDUCTOR_VLS_HBX</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">FIXED IND 2.2UH 3.15A 106MOHM SM</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number">VLS3012HBX-2R2M</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">445-175069-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="POGO_01X04_0.1IN_1_SMD">
+      <description>4 Position Spring Piston Connector Surface Mount</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">POGO_01X04_0.1IN_1_SMD</field>
+        <field name="Footprint">Janelia:POGO_01x04_0.1in_SMD</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED8111-04-ND</field>
+        <field name="Description">4 Position Spring Piston Connector Surface Mount</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp.</field>
+        <field name="Manufacturer Part Number">811-22-004-30-001101</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Janelia" part="R_5.1k_0402">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_5.1k_0402</field>
+        <field name="Footprint">Janelia:SM0402</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">P124488CT-ND</field>
+        <field name="Description">RES SMD 5.1 KOHM 1% 1/5W</field>
+        <field name="Package">0402</field>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer Part Number">ERJ-PA2F5101X</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Janelia">
+      <uri>/home/polidorop/Repositories/kicad/kicad-libraries//janelia.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DRIVER_PWM_A">
+      <node ref="P6" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="INHA" pintype="input"/>
+    </net>
+    <net code="2" name="/DRIVER_PWM_B">
+      <node ref="P6" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="INHB" pintype="input"/>
+    </net>
+    <net code="3" name="/DRIVER_PWM_C">
+      <node ref="P6" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="INHC" pintype="input"/>
+    </net>
+    <net code="4" name="/ENABLE_LED_POWER">
+      <node ref="P3" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="5" name="/ENABLE_SERVO_POWER">
+      <node ref="P4" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="6" name="/ENCODER_A">
+      <node ref="P5" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="A" pintype="output"/>
+    </net>
+    <net code="7" name="/ENCODER_B">
+      <node ref="P5" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="B" pintype="output"/>
+    </net>
+    <net code="8" name="/GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P1" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="25" pinfunction="PAD" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="TEST" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="/GPIO_0">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="P4" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="10" name="/GPIO_1">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P4" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="11" name="/MISO">
+      <node ref="P4" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="12" name="/MOSI">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P3" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="13" name="/SCK">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="P3" pin="3" pinfunction="P3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="14" name="/SERVO_SIGNAL_0">
+      <node ref="P5" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/SERVO_SIGNAL_1">
+      <node ref="P5" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/VBATTERY">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="P7" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VM" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="17" name="/VDIGITAL">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="P1" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="INLA" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="INLB" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="INLC" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="VIN_AVDD" pintype="power_in"/>
+      <node ref="U2" pin="11" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="VDD3V3" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="18" name="/VLED">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="19" name="/VSERVO">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="20" name="/driver/CP">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CP" pintype="passive"/>
+    </net>
+    <net code="21" name="/driver/CSAREF">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CSAREF" pintype="passive"/>
+    </net>
+    <net code="22" name="/driver/MOTOR_A">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="OUTA" pintype="power_out"/>
+    </net>
+    <net code="23" name="/driver/MOTOR_B">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="OUTB" pintype="power_out"/>
+    </net>
+    <net code="24" name="/driver/MOTOR_C">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="OUTC" pintype="power_out"/>
+    </net>
+    <net code="25" name="/driver/VDD">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="AVDD" pintype="power_out"/>
+    </net>
+    <net code="26" name="/featherwing-nrf52-pogo/GPIO{slash}14{slash}A0-HS">
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="27" name="/featherwing-nrf52-pogo/GPIO{slash}15{slash}A1-HS">
+      <node ref="P2" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="28" name="/featherwing-nrf52-pogo/GPIO{slash}16{slash}A2-LS">
+      <node ref="P2" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="29" name="/featherwing-nrf52-pogo/GPIO{slash}17{slash}A3-LS">
+      <node ref="P2" pin="4" pinfunction="P4" pintype="passive"/>
+    </net>
+    <net code="30" name="/featherwing-nrf52-pogo/GPIO{slash}21{slash}AREF{slash}A7-LS">
+      <node ref="P1" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="31" name="/featherwing-nrf52-pogo/VUSB">
+      <node ref="P7" pin="2" pinfunction="P2" pintype="passive"/>
+    </net>
+    <net code="32" name="/featherwing-nrf52-pogo/~{RESET}">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="33" name="/power/boost-led/LX">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="LX" pintype="passive"/>
+    </net>
+    <net code="34" name="/power/boost-servo/LX">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="LX" pintype="passive"/>
+    </net>
+    <net code="35" name="/servo/TRANSLATED_SIGNAL_0">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/servo/TRANSLATED_SIGNAL_1">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/~{DISABLE_ALL_POWER}">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="P7" pin="3" pinfunction="P3" pintype="passive"/>
+    </net>
+    <net code="38" name="/~{DRIVER_FAULT}">
+      <node ref="P7" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="~{FAULT}" pintype="open_collector"/>
+    </net>
+    <net code="39" name="/~{DRIVER_SLEEP}">
+      <node ref="P6" pin="4" pinfunction="P4" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="~{SLEEP}" pintype="input"/>
+    </net>
+    <net code="40" name="/~{ENCODER_CS}">
+      <node ref="P3" pin="2" pinfunction="P2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="41" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="SOC" pintype="output+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="SOB" pintype="output+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="SOA" pintype="output+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-Pad21)">
+      <node ref="U1" pin="21" pinfunction="GAIN" pintype="input+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="SLEW" pintype="input+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-Pad23)">
+      <node ref="U1" pin="23" pinfunction="MODE" pintype="input+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="W/PWM" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="V" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U2-Pad10)">
+      <node ref="U2" pin="10" pinfunction="U" pintype="output+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U2-Pad14)">
+      <node ref="U2" pin="14" pinfunction="I/PWM" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

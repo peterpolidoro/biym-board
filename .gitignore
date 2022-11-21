@@ -27,9 +27,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
+# Autorouter files (freerouting)
 *.rules
 *.bin

@@ -7,11 +7,49 @@
   (title_block
     (title "biym-board")
     (date "2022-11-20")
-    (rev "1.1")
+    (rev "1.2")
     (company "Peter Polidoro")
   )
 
   (lib_symbols
+    (symbol "Janelia:FIDUCIAL_0.5mm_MASK1mm" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "FID" (id 0) (at 0 2.286 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "FIDUCIAL_0.5mm_MASK1mm" (id 1) (at 0 -2.286 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "Janelia:FIDUCIAL_0.5mm_Mask1mm" (id 2) (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "FIDUCIAL_0.5mm_MASK1mm_0_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.27)
+            (xy 0 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 0.635)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
   )
 
 
@@ -473,6 +511,74 @@
     (uuid fec81264-3329-48d8-8783-7d71593655f1)
   )
 
+  (symbol (lib_id "Janelia:FIDUCIAL_0.5mm_MASK1mm") (at 68.58 50.8 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid 32ccc4b0-6f97-4d28-a327-1cb837c47b11)
+    (property "Reference" "FID3" (id 0) (at 71.12 50.8 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FIDUCIAL_0.5mm_MASK1mm" (id 1) (at 68.58 53.086 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Janelia:FIDUCIAL_0.5mm_Mask1mm" (id 2) (at 73.66 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 73.66 50.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Janelia:FIDUCIAL_0.5mm_MASK1mm") (at 68.58 55.88 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid 856017b2-ab37-48b5-8e7c-97690afc43b3)
+    (property "Reference" "FID4" (id 0) (at 71.12 55.88 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FIDUCIAL_0.5mm_MASK1mm" (id 1) (at 68.58 58.166 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Janelia:FIDUCIAL_0.5mm_Mask1mm" (id 2) (at 73.66 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 73.66 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Janelia:FIDUCIAL_0.5mm_MASK1mm") (at 68.58 45.72 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid b691a290-ebc1-45f5-9920-f6d601957224)
+    (property "Reference" "FID2" (id 0) (at 71.12 45.72 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FIDUCIAL_0.5mm_MASK1mm" (id 1) (at 68.58 48.006 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Janelia:FIDUCIAL_0.5mm_Mask1mm" (id 2) (at 73.66 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 73.66 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "Janelia:FIDUCIAL_0.5mm_MASK1mm") (at 68.58 40.64 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid c9c10df4-3b51-4fcf-be03-8be369b63017)
+    (property "Reference" "FID1" (id 0) (at 71.12 40.64 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "FIDUCIAL_0.5mm_MASK1mm" (id 1) (at 68.58 42.926 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "Janelia:FIDUCIAL_0.5mm_Mask1mm" (id 2) (at 73.66 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 73.66 40.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (sheet (at 148.59 36.83) (size 31.75 17.78) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -883,6 +989,18 @@
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/8569c6b2-7d24-466b-9865-8b78f1e1774b"
       (reference "C16") (unit 1) (value "10uF") (footprint "Janelia:SM0603")
     )
+    (path "/c9c10df4-3b51-4fcf-be03-8be369b63017"
+      (reference "FID1") (unit 1) (value "FIDUCIAL_0.5mm_MASK1mm") (footprint "Janelia:FIDUCIAL_0.5mm_Mask1mm")
+    )
+    (path "/b691a290-ebc1-45f5-9920-f6d601957224"
+      (reference "FID2") (unit 1) (value "FIDUCIAL_0.5mm_MASK1mm") (footprint "Janelia:FIDUCIAL_0.5mm_Mask1mm")
+    )
+    (path "/32ccc4b0-6f97-4d28-a327-1cb837c47b11"
+      (reference "FID3") (unit 1) (value "FIDUCIAL_0.5mm_MASK1mm") (footprint "Janelia:FIDUCIAL_0.5mm_Mask1mm")
+    )
+    (path "/856017b2-ab37-48b5-8e7c-97690afc43b3"
+      (reference "FID4") (unit 1) (value "FIDUCIAL_0.5mm_MASK1mm") (footprint "Janelia:FIDUCIAL_0.5mm_Mask1mm")
+    )
     (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/a9d03b37-2be5-4c8d-800f-d7648de4fc79"
       (reference "FW1") (unit 1) (value "FEATHERWING_nRF52") (footprint "Janelia:FEATHERWING")
     )
@@ -910,11 +1028,26 @@
     (path "/2c398cb1-cb17-49ba-86d6-22731656ead9/7f68221f-2146-4876-8266-973547afa80f/8ca9c524-e1b3-4ce2-ab12-49a68a490158"
       (reference "L2") (unit 1) (value "2.2uH") (footprint "Janelia:INDUCTOR_VLS_HBX")
     )
-    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/acdc7805-9fb3-4761-9ec6-c2c291466ae7"
-      (reference "P1") (unit 1) (value "POGO_01X16_0.1IN_1_SMD") (footprint "Janelia:POGO_01x16_0.1in_SMD")
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/7e1f8c14-a397-4d3c-9d8b-4d6788cff274"
+      (reference "P1") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
     )
-    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/eaa4aaa2-449f-472d-bc0d-08b1d215904f"
-      (reference "P2") (unit 1) (value "POGO_01X12_0.1IN_1_SMD") (footprint "Janelia:POGO_01x12_0.1in_SMD")
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/0df15a88-88a4-4482-a181-5f2e38d647e4"
+      (reference "P2") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
+    )
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/60c15f0c-f032-4887-bafe-909957879ef7"
+      (reference "P3") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
+    )
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/b15e0f91-954b-43ce-94b6-7752f0db309c"
+      (reference "P4") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
+    )
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/7ab950e7-9bde-40b7-b26a-ef4a48785f51"
+      (reference "P5") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
+    )
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/f6a1d72d-a76c-4957-9ee8-208aaabb84a2"
+      (reference "P6") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
+    )
+    (path "/a1d9e367-d69b-4148-ac7d-1c1fa0ebb9bb/59d03c2a-dfa3-4df0-bf00-1af9dc54dcf2"
+      (reference "P7") (unit 1) (value "POGO_01X04_0.1IN_1_SMD") (footprint "Janelia:POGO_01x04_0.1in_SMD")
     )
     (path "/79116d11-26fd-48fc-b8f9-7a7b774125a1/d271db0e-3caf-4df3-8d2a-fb3b0ff392cd"
       (reference "R1") (unit 1) (value "5.1k") (footprint "Janelia:SM0402")
