@@ -15,4 +15,6 @@
    "emacs-ox-gfm"
    "imagemagick"
    "python"
-   "python-kicad-bom"))
+   "python-kicad-bom"
+   "coreutils"
+   "python-ipython"))

@@ -39,3 +39,17 @@
   "Tangle and export org file"
   (progn (tangle-org org-file)
          (export-org org-file)))
+
+(make-variable-buffer-local 'org-export-filter-final-output-functions)
+(defun my-double-blank-line-filter (output backend info)
+  (replace-regexp-in-string "^\n+" "\n" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-double-blank-line-filter)
+(defun my-result-keyword-filter (output backend info)
+  (replace-regexp-in-string "^#[+]RESULTS:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-result-keyword-filter)
+(defun my-export-filename-filter (output backend info)
+  (replace-regexp-in-string "^#[+]EXPORT_FILE_NAME:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-export-filename-filter)

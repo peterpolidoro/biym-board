@@ -22,17 +22,46 @@
   - https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 ```
 
-![img](./documentation/pcb/top.png)\n ![img](./documentation/pcb/bottom.png)\n
+
+# Images
+
+![img](./documentation/pcb/top.png)
+
+![img](./documentation/pcb/bottom.png)
 
 
 # Schematic
 
-[./documentation/schematic/biym-board.pdf](./documentation/schematic/biym-board.pdf)\n
+[./documentation/schematic/biym-board.pdf](./documentation/schematic/biym-board.pdf)
+
+![img](./documentation/schematic/biym-board.svg)
+
+![img](./documentation/schematic/biym-board-power.svg)
+
+![img](./documentation/schematic/biym-board-driver.svg)
+
+![img](./documentation/schematic/biym-board-encoder.svg)
+
+![img](./documentation/schematic/biym-board-led.svg)
+
+![img](./documentation/schematic/biym-board-servo.svg)
+
+![img](./documentation/schematic/biym-board-gpio.svg)
+
+![img](./documentation/schematic/biym-board-power-boost-led.svg)
+
+![img](./documentation/schematic/biym-board-power-boost-servo.svg)
+
+![img](./documentation/schematic/biym-board-featherwing-nrf52-pogo.svg)
 
 
 # PCB
 
-![img](./documentation/pcb/biym-board-B_Silkscreen.svg)\n ![img](./documentation/pcb/biym-board-F_Silkscreen.svg)\n ![img](./documentation/pcb/biym-board-User_Drawings.svg)\n
+![img](./documentation/pcb/biym-board-F_Silkscreen.svg)
+
+![img](./documentation/pcb/biym-board-B_Silkscreen.svg)
+
+![img](./documentation/pcb/biym-board-User_Drawings.svg)
 
 
 # Bill of Materials

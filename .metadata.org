@@ -128,6 +128,36 @@ https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 nil
 #+END_SRC
 
+#+NAME: documentation-dir
+#+BEGIN_SRC text :exports none :noweb yes
+./documentation/
+#+END_SRC
+
+#+NAME: bom-dir
+#+BEGIN_SRC text :exports none :noweb yes
+<<documentation-dir>>bom/
+#+END_SRC
+
+#+NAME: fabrication-dir
+#+BEGIN_SRC text :exports none :noweb yes
+<<documentation-dir>>fabrication/
+#+END_SRC
+
+#+NAME: pcb-dir
+#+BEGIN_SRC text :exports none :noweb yes
+<<documentation-dir>>pcb/
+#+END_SRC
+
+#+NAME: reference-dir
+#+BEGIN_SRC text :exports none :noweb yes
+<<documentation-dir>>pcb/
+#+END_SRC
+
+#+NAME: schematic-dir
+#+BEGIN_SRC text :exports none :noweb yes
+<<documentation-dir>>schematic/
+#+END_SRC
+
 #+BEGIN_EXAMPLE
 <!---
 This file is generated automatically from .metadata.org
@@ -151,36 +181,56 @@ File edits may be overwritten!
   - <<references>>
 #+END_SRC
 
-#+BEGIN_SRC sh :exports results :results raw
-TOP=./documentation/pcb/top.png
-if [ -f $TOP ]; then
-    echo "[[file:./documentation/pcb/top.png]]\n"
-fi
-BOTTOM=./documentation/pcb/bottom.png
-if [ -f $BOTTOM ]; then
-    echo "[[file:./documentation/pcb/bottom.png]]\n"
-fi
+* Images
+
+#+BEGIN_SRC python :noweb yes :exports results :results output raw
+from pathlib import Path
+path_strings = ['<<pcb-dir>>top.png', '<<pcb-dir>>bottom.png']
+for path_string in path_strings:
+    path = Path(path_string)
+    if path.is_file():
+        print(f'[[file:./{path}]]\n')
 #+END_SRC
 
 * Schematic
 
-#+BEGIN_SRC sh :exports results :results raw
-for FILEPATH in ./documentation/schematic/*.pdf; do
-    FILENAME=${FILEPATH##*/}
-    echo "[[file:./documentation/schematic/$FILENAME][./documentation/schematic/$FILENAME]]\n"
-done
+#+BEGIN_SRC python :noweb yes :exports results :results output raw
+from pathlib import Path
+path = Path('<<schematic-dir>>')
+for child in path.iterdir():
+    if '.pdf' in str(child):
+        print(f'[[file:./{child}][./{child}]]\n')
+#+END_SRC
+
+#+BEGIN_SRC python :noweb yes :exports results :results output raw
+from pathlib import Path
+from re import search
+from collections import OrderedDict
+path = Path('<<schematic-dir>>')
+svg_dict = {}
+for child in path.iterdir():
+    if '.svg' in str(child):
+        text = child.read_text()
+        # sort by Id inside svg text
+        match_object = search('Id:\s*(\d*)', text)
+        number = int(match_object.groups()[0])
+        svg_dict[number] = f'[[file:./{child}]]'
+sorted_svg_dict = OrderedDict(sorted(svg_dict.items()))
+for svg_string in sorted_svg_dict.values():
+    print(f'{svg_string}\n')
 #+END_SRC
 
 * PCB
 
-#+BEGIN_SRC sh :exports results :results raw
-for FILEPATH in ./documentation/pcb/*.svg; do
-    FILENAME=${FILEPATH##*/}
-    if [ "$FILENAME" != "*.png" ]
-    then
-        echo "[[file:./documentation/pcb/$FILENAME]]\n"
-    fi
-done
+#+BEGIN_SRC python :noweb yes :exports results :results output raw
+from pathlib import Path
+path_strings = ['<<pcb-dir>><<name>>-F_Silkscreen.svg',
+                '<<pcb-dir>><<name>>-B_Silkscreen.svg',
+                '<<pcb-dir>><<name>>-User_Drawings.svg']
+for path_string in path_strings:
+    path = Path(path_string)
+    if path.is_file():
+        print(f'[[file:./{path}]]\n')
 #+END_SRC
 
 * Bill of Materials
@@ -304,7 +354,9 @@ exit
    "emacs-ox-gfm"
    "imagemagick"
    "python"
-   "python-kicad-bom"))
+   "python-kicad-bom"
+   "coreutils"
+   "python-ipython"))
 #+END_SRC
 
 #+BEGIN_SRC text :tangle Makefile :exports none :noweb yes
@@ -325,6 +377,9 @@ metadata:
 
 file-edits:
 	$(GUIX-SHELL) --pure -- kicad
+
+ipython-shell:
+	$(GUIX-CONTAINER) -- ipython
 
 add:
 	$(GUIX-CONTAINER) -- sh -c "git add --all"
@@ -376,5 +431,18 @@ clean:
   (progn (tangle-org org-file)
          (export-org org-file)))
 
+(make-variable-buffer-local 'org-export-filter-final-output-functions)
+(defun my-double-blank-line-filter (output backend info)
+  (replace-regexp-in-string "^\n+" "\n" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-double-blank-line-filter)
+(defun my-result-keyword-filter (output backend info)
+  (replace-regexp-in-string "^#[+]RESULTS:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-result-keyword-filter)
+(defun my-export-filename-filter (output backend info)
+  (replace-regexp-in-string "^#[+]EXPORT_FILE_NAME:.*\n" "" output))
+(add-to-list 'org-export-filter-final-output-functions
+             'my-export-filename-filter)
 #+END_SRC
 
