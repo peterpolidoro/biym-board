@@ -57,11 +57,11 @@
 
 # PCB
 
-![img](./documentation/pcb/biym-board-F_Silkscreen.svg)
+![img](./documentation/pcb/biym-board-F_Silkscreen.png)
 
-![img](./documentation/pcb/biym-board-B_Silkscreen.svg)
+![img](./documentation/pcb/biym-board-B_Silkscreen.png)
 
-![img](./documentation/pcb/biym-board-User_Drawings.svg)
+![img](./documentation/pcb/biym-board-User_Drawings.png)
 
 
 # Bill of Materials

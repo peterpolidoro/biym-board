@@ -223,16 +223,16 @@ for svg_string in sorted_svg_dict.values():
 * PCB
 
 #+BEGIN_SRC sh :noweb yes :exports results
-inkscape --export-area-drawing --export-overwrite <<pcb-dir>>*.svg
+inkscape --export-area-drawing --export-type=png <<pcb-dir>>*.svg
 #+END_SRC
 
 #+RESULTS:
 
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
-path_strings = ['<<pcb-dir>><<name>>-F_Silkscreen.svg',
-                '<<pcb-dir>><<name>>-B_Silkscreen.svg',
-                '<<pcb-dir>><<name>>-User_Drawings.svg']
+path_strings = ['<<pcb-dir>><<name>>-F_Silkscreen.png',
+                '<<pcb-dir>><<name>>-B_Silkscreen.png',
+                '<<pcb-dir>><<name>>-User_Drawings.png']
 for path_string in path_strings:
     path = Path(path_string)
     if path.is_file():
