@@ -14,6 +14,7 @@
    "emacs-org"
    "emacs-ox-gfm"
    "imagemagick"
+   "inkscape"
    "python"
    "python-kicad-bom"
    "coreutils"

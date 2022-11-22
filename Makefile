@@ -16,6 +16,12 @@ metadata:
 file-edits:
 	$(GUIX-SHELL) --pure -- kicad
 
+shell:
+	$(GUIX-SHELL)
+
+container:
+	$(GUIX-CONTAINER)
+
 ipython-shell:
 	$(GUIX-CONTAINER) -- ipython
 

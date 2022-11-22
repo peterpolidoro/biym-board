@@ -222,6 +222,12 @@ for svg_string in sorted_svg_dict.values():
 
 * PCB
 
+#+BEGIN_SRC sh :noweb yes :exports results
+inkscape --export-area-drawing --export-overwrite <<pcb-dir>>*.svg
+#+END_SRC
+
+#+RESULTS:
+
 #+BEGIN_SRC python :noweb yes :exports results :results output raw
 from pathlib import Path
 path_strings = ['<<pcb-dir>><<name>>-F_Silkscreen.svg',
@@ -353,6 +359,7 @@ exit
    "emacs-org"
    "emacs-ox-gfm"
    "imagemagick"
+   "inkscape"
    "python"
    "python-kicad-bom"
    "coreutils"
@@ -377,6 +384,12 @@ metadata:
 
 file-edits:
 	$(GUIX-SHELL) --pure -- kicad
+
+shell:
+	$(GUIX-SHELL)
+
+container:
+	$(GUIX-CONTAINER)
 
 ipython-shell:
 	$(GUIX-CONTAINER) -- ipython
