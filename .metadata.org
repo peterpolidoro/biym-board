@@ -223,7 +223,7 @@ for svg_string in sorted_svg_dict.values():
 * PCB
 
 #+BEGIN_SRC sh :noweb yes :exports results
-inkscape --export-area-drawing --export-type=png <<pcb-dir>>*.svg
+inkscape --export-area-drawing --export-type=png --export-dpi=300 <<pcb-dir>>*.svg
 #+END_SRC
 
 #+RESULTS:
