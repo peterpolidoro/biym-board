@@ -61,9 +61,14 @@ biym-board
 biym
 #+END_SRC
 
+#+NAME: forge
+#+BEGIN_SRC text :exports none :noweb yes
+github.com
+#+END_SRC
+
 #+NAME: repository-url
 #+BEGIN_SRC text :exports none :noweb yes
-https://github.com/<<repository-organization>>/<<repository-name>>
+https://<<forge>>/<<repository-organization>>/<<repository-name>>
 #+END_SRC
 
 #+NAME: code-repository
@@ -374,6 +379,12 @@ GUIX-SHELL = guix time-machine -C .channels.scm -- shell -m .manifest.scm
 GUIX-CONTAINER = $(GUIX-SHELL) --container
 GUIX-CONTAINER-GUI = $(GUIX-CONTAINER) -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
 
+shell:
+	$(GUIX-SHELL)
+
+container:
+	$(GUIX-CONTAINER)
+
 metadata-edits:
 	$(GUIX-CONTAINER-GUI) -- sh -c "emacs -q --no-site-file --no-site-lisp --no-splash -l .init.el --file .metadata.org"
 
@@ -382,12 +393,6 @@ metadata:
 
 file-edits:
 	$(GUIX-SHELL) --pure -- kicad
-
-shell:
-	$(GUIX-SHELL)
-
-container:
-	$(GUIX-CONTAINER)
 
 ipython-shell:
 	$(GUIX-CONTAINER) -- ipython
