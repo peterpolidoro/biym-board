@@ -1,5 +1,5 @@
 #+EXPORT_FILE_NAME: README.md
-#+OPTIONS: toc:nil |:t ^:nil tags:nil
+#+OPTIONS: toc:1 |:t ^:nil tags:nil
 
 #+NAME: name
 #+BEGIN_SRC text :exports none :noweb yes
@@ -8,12 +8,12 @@ biym-board
 
 #+NAME: version
 #+BEGIN_SRC text :exports none :noweb yes
-0.1.0
+1.2.0
 #+END_SRC
 
 #+NAME: release-month-day
 #+BEGIN_SRC text :exports none :noweb yes
-10-28
+11-28
 #+END_SRC
 
 #+NAME: release-year
@@ -159,10 +159,8 @@ nil
 #+END_SRC
 
 #+BEGIN_EXAMPLE
-<!---
-This file is generated automatically from .metadata.org
-File edits may be overwritten!
---->
+<!-- This file is generated automatically from .metadata.org -->
+<!-- File edits may be overwritten! -->
 #+END_EXAMPLE
 
 * About

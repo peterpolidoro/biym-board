@@ -4,9 +4,9 @@
     "license": "https://spdx.org/licenses/nil",
     "codeRepository": "git+https://github.com/biym/biym-board.git",
     "dateCreated": "2022-10-28",
-    "dateModified": "2022-10-28",
+    "dateModified": "2022-11-28",
     "name": "biym-board",
-    "version": "0.1.0",
+    "version": "1.2.0",
     "description": "PCB files for biym game.",
     "programmingLanguage": [
         "KiCad"

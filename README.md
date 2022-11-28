@@ -1,16 +1,23 @@
-<!---
-    This file is generated automatically from .metadata.org
-    File edits may be overwritten!
-    --->
+- [About](#orgc00495b)
+- [Images](#org1282dcf)
+- [Schematic](#orgeb3dfeb)
+- [PCB](#orgb48a65f)
+- [Bill of Materials](#orgd5c5040)
+- [Development](#orgf35f1bb)
 
+    <!-- This file is generated automatically from .metadata.org -->
+    <!-- File edits may be overwritten! -->
+
+
+<a id="orgc00495b"></a>
 
 # About
 
 ```markdown
 - Name: biym-board
 - Description: PCB files for biym game.
-- Version: 0.1.0
-- Date: 2022-10-28
+- Version: 1.2.0
+- Date: 2022-11-28
 - License: nil
 - URL: https://github.com/biym/biym-board
 - Author: Peter Polidoro
@@ -23,12 +30,16 @@
 ```
 
 
+<a id="org1282dcf"></a>
+
 # Images
 
 ![img](./documentation/pcb/top.png)
 
 ![img](./documentation/pcb/bottom.png)
 
+
+<a id="orgeb3dfeb"></a>
 
 # Schematic
 
@@ -55,6 +66,8 @@
 ![img](./documentation/schematic/biym-board-featherwing-nrf52-pogo.svg)
 
 
+<a id="orgb48a65f"></a>
+
 # PCB
 
 ![img](./documentation/pcb/biym-board-F_Silkscreen.png)
@@ -63,6 +76,8 @@
 
 ![img](./documentation/pcb/biym-board-User_Drawings.png)
 
+
+<a id="orgd5c5040"></a>
 
 # Bill of Materials
 
@@ -83,6 +98,8 @@
 | 13   | U3                      | 1        | Texas Instruments               | SN74LVC2T45DCUT          | Digi-Key | 296-32331-1-ND             | IC TRNSLTR BIDIRECTIONAL US8                     |                    |
 | 14   | U4 U5                   | 2        | Nisshinbo Micro Devices Inc.    | RP402N501F-TR-FE         | Digi-Key | 2129-RP402N501F-TR-FECT-ND | PWM/VFM STEP-UP DCDC CONVERTER W                 | SOT-23-5           |
 
+
+<a id="orgf35f1bb"></a>
 
 # Development
 
