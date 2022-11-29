@@ -1,7 +1,7 @@
 {
     "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
     "@type": "SoftwareSourceCode",
-    "license": "https://spdx.org/licenses/GPLv3",
+    "license": "https://spdx.org/licenses/GPL-3.0",
     "codeRepository": "git+https://github.com/biym/biym-board.git",
     "dateCreated": "2022-10-28",
     "dateModified": "2022-11-29",

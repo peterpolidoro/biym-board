@@ -1,15 +1,15 @@
-- [About](#orgb659f0e)
-- [Images](#org15eb503)
-- [Schematic](#org98a5222)
-- [PCB](#org7c6b1c8)
-- [Bill of Materials](#org3905343)
-- [Development](#orgd7a9e78)
+- [About](#org11f08f4)
+- [Images](#org7289aa7)
+- [Schematic](#orge9b372d)
+- [PCB](#org2909433)
+- [Bill of Materials](#orgf4a91e0)
+- [Development](#org3ef916a)
 
     <!-- This file is generated automatically from .metadata.org -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="orgb659f0e"></a>
+<a id="org11f08f4"></a>
 
 # About
 
@@ -18,7 +18,7 @@
 - Description: PCB files for biym game.
 - Version: 1.3.0
 - Date: 2022-11-29
-- License: GPLv3
+- License: GPL-3.0
 - URL: https://github.com/biym/biym-board
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
@@ -30,7 +30,7 @@
 ```
 
 
-<a id="org15eb503"></a>
+<a id="org7289aa7"></a>
 
 # Images
 
@@ -39,7 +39,7 @@
 ![img](./documentation/pcb/bottom.png)
 
 
-<a id="org98a5222"></a>
+<a id="orge9b372d"></a>
 
 # Schematic
 
@@ -66,7 +66,7 @@
 ![img](./documentation/schematic/biym-board-featherwing-nrf52-pogo.svg)
 
 
-<a id="org7c6b1c8"></a>
+<a id="org2909433"></a>
 
 # PCB
 
@@ -77,7 +77,7 @@
 ![img](./documentation/pcb/biym-board-User_Drawings.png)
 
 
-<a id="org3905343"></a>
+<a id="orgf4a91e0"></a>
 
 # Bill of Materials
 
@@ -99,7 +99,7 @@
 | 14   | U4 U5                   | 2        | Nisshinbo Micro Devices Inc.    | RP402N501F-TR-FE         | Digi-Key | 2129-RP402N501F-TR-FECT-ND | PWM/VFM STEP-UP DCDC CONVERTER W                 | SOT-23-5           |
 
 
-<a id="orgd7a9e78"></a>
+<a id="org3ef916a"></a>
 
 # Development
 
