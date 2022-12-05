@@ -16,5 +16,4 @@
    "imagemagick"
    "inkscape"
    "python"
-   "python-kicad-bom"
-   "python-ipython"))
+   "python-kicad-bom"))

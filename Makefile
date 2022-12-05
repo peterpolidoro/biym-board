@@ -22,8 +22,8 @@ metadata:
 project-edits:
 	$(GUIX-SHELL) -- kicad
 
-ipython-shell:
-	$(GUIX-CONTAINER) -- ipython
+python-shell:
+	$(GUIX-CONTAINER) -- python
 
 add:
 	$(GUIX-CONTAINER) -- sh -c "git add --all"
