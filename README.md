@@ -1,15 +1,15 @@
-- [About](#org11f08f4)
-- [Images](#org7289aa7)
-- [Schematic](#orge9b372d)
-- [PCB](#org2909433)
-- [Bill of Materials](#orgf4a91e0)
-- [Development](#org3ef916a)
+- [About](#org70d96d5)
+- [Images](#org9db234f)
+- [Schematic](#org14775d8)
+- [PCB](#org5f87a35)
+- [Bill of Materials](#org980561d)
+- [Development](#org000aed3)
 
     <!-- This file is generated automatically from .metadata.org -->
     <!-- File edits may be overwritten! -->
 
 
-<a id="org11f08f4"></a>
+<a id="org70d96d5"></a>
 
 # About
 
@@ -17,29 +17,26 @@
 - Name: biym-board
 - Description: PCB files for biym game.
 - Version: 1.3.0
-- Date: 2022-11-29
+- Date: 2022-12-05
 - License: GPL-3.0
 - URL: https://github.com/biym/biym-board
 - Author: Peter Polidoro
 - Email: peter@polidoro.io
 - Copyright: 2022 Peter Polidoro
 - References:
+  - https://www.kicad.org/
   - https://www.adafruit.com/product/4062
   - https://learn.adafruit.com/adafruit-feather/feather-specification
   - https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 ```
 
 
-<a id="org7289aa7"></a>
+<a id="org9db234f"></a>
 
 # Images
 
-![img](./documentation/pcb/top.png)
 
-![img](./documentation/pcb/bottom.png)
-
-
-<a id="orge9b372d"></a>
+<a id="org14775d8"></a>
 
 # Schematic
 
@@ -66,18 +63,18 @@
 ![img](./documentation/schematic/biym-board-featherwing-nrf52-pogo.svg)
 
 
-<a id="org2909433"></a>
+<a id="org5f87a35"></a>
 
 # PCB
 
-![img](./documentation/pcb/biym-board-F_Silkscreen.png)
+![img](./documentation/pcb/top-bare.png)
 
-![img](./documentation/pcb/biym-board-B_Silkscreen.png)
+![img](./documentation/pcb/bottom-bare.png)
 
 ![img](./documentation/pcb/biym-board-User_Drawings.png)
 
 
-<a id="orgf4a91e0"></a>
+<a id="org980561d"></a>
 
 # Bill of Materials
 
@@ -99,41 +96,36 @@
 | 14   | U4 U5                   | 2        | Nisshinbo Micro Devices Inc.    | RP402N501F-TR-FE         | Digi-Key | 2129-RP402N501F-TR-FECT-ND | PWM/VFM STEP-UP DCDC CONVERTER W                 | SOT-23-5           |
 
 
-<a id="org3ef916a"></a>
+<a id="org000aed3"></a>
 
 # Development
 
-
-## Install Guix
+1.  Install Guix.
 
 [Install Guix](https://guix.gnu.org/manual/en/html_node/Binary-Installation.html)
 
-
-## Clone Repository
+1.  Clone repository.
 
 ```sh
 git clone https://github.com/biym/biym-board
 cd biym-board
 ```
 
+1.  Open project in KiCad
 
-## Edit .metadata.org
+```sh
+make project-edits
+exit
+```
+
+. Open .metadata.org.
 
 ```sh
 make metadata-edits
 ```
 
-
-## Tangle .metadata.org
+1.  Modify project specific variables.
 
 ```sh
 make metadata
-```
-
-
-## Edit files
-
-```sh
-make file-edits
-exit
 ```

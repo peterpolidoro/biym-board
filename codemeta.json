@@ -4,7 +4,7 @@
     "license": "https://spdx.org/licenses/GPL-3.0",
     "codeRepository": "git+https://github.com/biym/biym-board.git",
     "dateCreated": "2022-10-28",
-    "dateModified": "2022-11-29",
+    "dateModified": "2022-12-05",
     "name": "biym-board",
     "version": "1.3.0",
     "description": "PCB files for biym game.",

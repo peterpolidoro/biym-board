@@ -17,5 +17,4 @@
    "inkscape"
    "python"
    "python-kicad-bom"
-   "coreutils"
    "python-ipython"))

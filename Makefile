@@ -4,7 +4,7 @@
 upload: metadata package twine add clean
 
 GUIX-SHELL = guix time-machine -C .channels.scm -- shell -m .manifest.scm
-GUIX-CONTAINER = $(GUIX-SHELL) --container
+GUIX-CONTAINER = guix time-machine -C .channels.scm -- shell -m .manifest.scm --container
 GUIX-CONTAINER-GUI = $(GUIX-CONTAINER) -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
 
 shell:
@@ -19,8 +19,8 @@ metadata-edits:
 metadata:
 	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l .init.el --eval '(process-org \".metadata.org\")'"
 
-file-edits:
-	$(GUIX-SHELL) --pure -- kicad
+project-edits:
+	$(GUIX-SHELL) -- kicad
 
 ipython-shell:
 	$(GUIX-CONTAINER) -- ipython
