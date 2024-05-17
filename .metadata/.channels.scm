@@ -1,19 +1,19 @@
 ;; This file is generated automatically from .metadata.org
 ;; File edits may be overwritten!
 (list (channel
-        (name 'guix)
-        (url "https://git.savannah.gnu.org/git/guix.git")
-        (branch "master")
-        (commit
-          "48329575c87bbee7166eedf10b1699599e67c49d")
-        (introduction
-          (make-channel-introduction
-            "9edb3f66fd807b096b48283debdcddccfea34bad"
-            (openpgp-fingerprint
-              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA"))))
-      (channel
         (name 'guix-janelia)
         (url "https://github.com/guix-janelia/guix-janelia.git")
         (branch "main")
         (commit
-          "a082913f2dcfd0aa7d1922e780880505aaf3e2d9")))
+          "08fe0b2ecb68d9e17dfa4802c79935ea6339d6d1"))
+      (channel
+        (name 'guix)
+        (url "https://git.savannah.gnu.org/git/guix.git")
+        (branch "master")
+        (commit
+          "0846eaecd45783bf40e8dc67b0c16f71068524b7")
+        (introduction
+          (make-channel-introduction
+            "9edb3f66fd807b096b48283debdcddccfea34bad"
+            (openpgp-fingerprint
+              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA")))))

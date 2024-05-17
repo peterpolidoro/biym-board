@@ -1,4 +1,4 @@
-#+EXPORT_FILE_NAME: README.md
+#+EXPORT_FILE_NAME: ../README.md
 #+OPTIONS: toc:1 |:t ^:nil tags:nil
 
 # Place warning at the top of the exported file
@@ -9,7 +9,7 @@
 
 * Project Specific Variables                                       :noexport:
 
-#+NAME: name
+#+NAME: project-name
 #+BEGIN_SRC text :exports none :noweb yes
 biym-board
 #+END_SRC
@@ -19,17 +19,12 @@ biym-board
 biym-board
 #+END_SRC
 
-#+NAME: version
+#+NAME: pcb-version
 #+BEGIN_SRC text :exports none :noweb yes
-1.3.0
+1.3
 #+END_SRC
 
-#+NAME: release-month-day
-#+BEGIN_SRC text :exports none :noweb yes
-12-05
-#+END_SRC
-
-#+NAME: description
+#+NAME: synopsis
 #+BEGIN_SRC text :exports none :noweb yes
 PCB files for biym game.
 #+END_SRC
@@ -49,14 +44,19 @@ https://github.com/adafruit/Adafruit-nRF52-Bluefruit-Feather-PCB
 
 * General and Derived Variables                                    :noexport:
 
+#+NAME: release-month-day
+#+BEGIN_SRC emacs-lisp :exports none :noweb yes
+(format-time-string "%m-%d")
+#+END_SRC
+
 #+NAME: release-year
-#+BEGIN_SRC text :exports none :noweb yes
-2022
+#+BEGIN_SRC emacs-lisp :exports none :noweb yes
+(format-time-string "%Y")
 #+END_SRC
 
 #+NAME: release-date
 #+BEGIN_SRC text :exports none :noweb yes
-<<release-year>>-<<release-month-day>>
+<<release-year()>>-<<release-month-day()>>
 #+END_SRC
 
 #+NAME: license
@@ -76,7 +76,7 @@ LICENSE
 
 #+NAME: repository-organization
 #+BEGIN_SRC text :exports none :noweb yes
-biym
+peterpolidoro
 #+END_SRC
 
 #+NAME: forge
@@ -89,9 +89,9 @@ github.com
 https://<<forge>>/<<repository-organization>>/<<repository-name>>
 #+END_SRC
 
-#+NAME: code-repository
+#+NAME: git-clone-url-ssh
 #+BEGIN_SRC text :exports none :noweb yes
-git+<<repository-url>>.git
+git@<<forge>>:<<repository-organization>>/<<repository-name>>.git
 #+END_SRC
 
 #+NAME: author-given-name
@@ -121,7 +121,12 @@ Peter Polidoro
 
 #+NAME: copyright
 #+BEGIN_SRC text :exports none :noweb yes
-<<release-year>> <<affiliation>>
+<<release-year()>> <<affiliation>>
+#+END_SRC
+
+#+NAME: kicad-version
+#+BEGIN_SRC text :exports none :noweb yes
+7.0.11
 #+END_SRC
 
 #+NAME: programming-language
@@ -162,10 +167,11 @@ KiCad
 * About
 
 #+BEGIN_SRC markdown :noweb yes
-- Name: <<name>>
-- Description: <<description>>
-- Version: <<version>>
-- Date: <<release-date>>
+- Project Name: <<project-name>>
+- Synopsis: <<synopsis>>
+- Pcb Version: <<pcb-version>>
+- Release Date: <<release-date>>
+- Creation Date: <<creation-date>>
 - License: <<license>>
 - URL: <<repository-url>>
 - Author: <<author>>
@@ -278,62 +284,29 @@ make metadata
 
 * Tangled Files                                                    :noexport:
 
-#+BEGIN_SRC text :tangle AUTHORS :exports none :noweb yes
-<<author>>
-#+END_SRC
-
-#+BEGIN_SRC js :tangle codemeta.json :exports none :noweb yes
-{
-    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
-    "@type": "SoftwareSourceCode",
-    "license": "https://spdx.org/licenses/<<license>>",
-    "codeRepository": "<<code-repository>>",
-    "dateCreated": "<<creation-date>>",
-    "dateModified": "<<release-date>>",
-    "name": "<<name>>",
-    "version": "<<version>>",
-    "description": "<<description>>",
-    "programmingLanguage": [
-        "<<programming-language>>"
-    ],
-    "author": [
-        {
-            "@type": "Person",
-            "givenName": "<<author-given-name>>",
-            "familyName": "<<author-family-name>>",
-            "email": "<<email>>",
-            "affiliation": {
-                "@type": "Organization",
-                "name": "<<affiliation>>"
-            }
-        }
-    ]
-}
-#+END_SRC
-
-#+BEGIN_SRC scheme :tangle .channels.scm :exports none :noweb yes
+#+BEGIN_SRC scheme :tangle guix/channels.scm :exports none :noweb yes
 ;; This file is generated automatically from .metadata.org
 ;; File edits may be overwritten!
 (list (channel
-        (name 'guix)
-        (url "https://git.savannah.gnu.org/git/guix.git")
-        (branch "master")
-        (commit
-          "48329575c87bbee7166eedf10b1699599e67c49d")
-        (introduction
-          (make-channel-introduction
-            "9edb3f66fd807b096b48283debdcddccfea34bad"
-            (openpgp-fingerprint
-              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA"))))
-      (channel
         (name 'guix-janelia)
         (url "https://github.com/guix-janelia/guix-janelia.git")
         (branch "main")
         (commit
-          "a082913f2dcfd0aa7d1922e780880505aaf3e2d9")))
+          "08fe0b2ecb68d9e17dfa4802c79935ea6339d6d1"))
+      (channel
+        (name 'guix)
+        (url "https://git.savannah.gnu.org/git/guix.git")
+        (branch "master")
+        (commit
+          "0846eaecd45783bf40e8dc67b0c16f71068524b7")
+        (introduction
+          (make-channel-introduction
+            "9edb3f66fd807b096b48283debdcddccfea34bad"
+            (openpgp-fingerprint
+              "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA")))))
 #+END_SRC
 
-#+BEGIN_SRC scheme :tangle .manifest.scm :exports none :noweb yes
+#+BEGIN_SRC scheme :tangle guix/manifest.scm :exports none :noweb yes
 ;; This file is generated automatically from .metadata.org
 ;; File edits may be overwritten!
 (specifications->manifest
@@ -355,42 +328,86 @@ make metadata
    "python-kicad-bom"))
 #+END_SRC
 
+#+BEGIN_SRC text :tangle ../Makefile :exports none :noweb yes
+# This file is generated automatically from .metadata.org
+# File edits may be overwritten!
+include .metadata/Makefile
+#+END_SRC
+
 #+BEGIN_SRC text :tangle Makefile :exports none :noweb yes
 # This file is generated automatically from .metadata.org
 # File edits may be overwritten!
 
-upload: metadata package twine add clean
+MAKEFILE_PATH := $(abspath $(lastword $(MAKEFILE_LIST)))
+MAKEFILE_DIR := $(notdir $(patsubst %/,%,$(dir $(MAKEFILE_PATH))))
+MAKEFILE_DIR_ABS := $(dir $(MAKEFILE_PATH))
+KICAD_CONFIG_HOME := $(MAKEFILE_DIR_ABS).config/kicad/
+GUIX-TIME-MACHINE = guix time-machine -C $(MAKEFILE_DIR)/guix/channels.scm
+GUIX-SHELL = $(GUIX-TIME-MACHINE) -- shell -m $(MAKEFILE_DIR)/guix/manifest.scm
+CONTAINER = --container -F -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
+GUIX-CONTAINER = $(GUIX-SHELL) $(CONTAINER)
 
-GUIX-SHELL = guix time-machine -C .channels.scm -- shell -m .manifest.scm
-GUIX-CONTAINER = guix time-machine -C .channels.scm -- shell -m .manifest.scm --container
-GUIX-CONTAINER-GUI = $(GUIX-CONTAINER) -E "^DISPLAY$$" -E "^XAUTHORITY$$" --expose="$$XAUTHORITY" --expose=/tmp/.X11-unix/ --expose=$$HOME/.Xauthority --expose=/etc/machine-id
+.PHONY: metadata-edits
+metadata-edits:
+	$(GUIX-CONTAINER) -- sh -c "emacs -q --no-site-file --no-site-lisp --no-splash -l $(MAKEFILE_DIR)/emacs/init.el --file $(MAKEFILE_DIR)/metadata.org"
 
-shell:
+.PHONY: metadata
+metadata:
+	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l $(MAKEFILE_DIR)/emacs/init.el --eval '(process-org \"$(MAKEFILE_DIR)/metadata.org\")'"
+
+.PHONY: guix-shell
+guix-shell:
 	$(GUIX-SHELL)
 
-container:
+.PHONY: guix-container
+guix-container:
 	$(GUIX-CONTAINER)
 
-metadata-edits:
-	$(GUIX-CONTAINER-GUI) -- sh -c "emacs -q --no-site-file --no-site-lisp --no-splash -l .init.el --file .metadata.org"
+.PHONY: ipython-shell
+ipython-shell:
+	$(GUIX-CONTAINER) -- ipython
 
-metadata:
-	$(GUIX-CONTAINER) -- sh -c "emacs --batch -Q  -l .init.el --eval '(process-org \".metadata.org\")'"
+.PHONY: kicad-edits
+kicad-edits:
+	# $(GUIX-CONTAINER) -S /home/$(USER)/.config/kicad/7.0=$(MAKEFILE_DIR)/.config/kicad/7.0 -- kicad
+	# $(GUIX-SHELL) -- kicad
+	KICAD_CONFIG_HOME=$(KICAD_CONFIG_HOME) $(GUIX-SHELL) -E "^KICAD_CONFIG_HOME" -- kicad
 
-project-edits:
-	$(GUIX-SHELL) -- kicad
+.PHONY: freecad-edits
+freecad-edits:
+	$(GUIX-SHELL) -- FreeCAD
 
-python-shell:
-	$(GUIX-CONTAINER) -- python
+.PHONY: filter-edits
+filter-edits:
+	$(GUIX-SHELL) -- sh -c "dosbox documentation/filter/FILTER42.exe"
 
-add:
-	$(GUIX-CONTAINER) -- sh -c "git add --all"
+.PHONY: skip-worktree-config
+skip-worktree-config:
+	git ls-files -z .metadata/.config/ | xargs -0 git update-index --skip-worktree
 
-clean:
-	$(GUIX-CONTAINER) -- sh -c "git clean -xdf"
+.PHONY: no-skip-worktree-config
+no-skip-worktree-config:
+	git ls-files -z .metadata/.config/ | xargs -0 git update-index --no-skip-worktree
+
+.PHONY: ls-files-config
+ls-files-config:
+	git ls-files .metadata/.config/ -v
+
+.PHONY: cropped
+cropped:
+	# $(GUIX-SHELL) -- inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
+	inkscape -D --export-overwrite --export-plain-svg documentation/pcb/*.svg
+
+.PHONY: trimmed-images
+trimmed-images:
+	mogrify -trim documentation/pcb/*.png
+
+.PHONY: zipped-gerbers
+zipped-gerbers:
+	$(GUIX-SHELL) -- sh -c "rm -f documentation/gerbers/*.zip && zip -j -r documentation/gerbers/<<project-name>>-<<pcb-version>>.zip documentation/gerbers"
 #+END_SRC
 
-#+BEGIN_SRC scheme :tangle .init.el :exports none :noweb yes
+#+BEGIN_SRC scheme :tangle emacs/init.el :exports none :noweb yes
 ;; This file is generated automatically from .metadata.org
 ;; File edits may be overwritten!
 (require 'org)
@@ -446,6 +463,35 @@ clean:
   (replace-regexp-in-string "^#[+]EXPORT_FILE_NAME:.*\n" "" output))
 (add-to-list 'org-export-filter-final-output-functions
              'my-export-filename-filter)
+#+END_SRC
+
+#+BEGIN_SRC js :tangle codemeta.json :exports none :noweb yes
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/<<license>>",
+    "codeRepository": "<<code-repository>>",
+    "dateCreated": "<<creation-date>>",
+    "dateModified": "<<release-date>>",
+    "name": "<<project-name>>",
+    "version": "<<pcb-version>>",
+    "description": "<<synopsis>>",
+    "programmingLanguage": [
+        "<<programming-language>>"
+    ],
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "<<author-given-name>>",
+            "familyName": "<<author-family-name>>",
+            "email": "<<email>>",
+            "affiliation": {
+                "@type": "Organization",
+                "name": "<<affiliation>>"
+            }
+        }
+    ]
+}
 #+END_SRC
 
 #+BEGIN_SRC text :tangle LICENSE :exports none :noweb yes

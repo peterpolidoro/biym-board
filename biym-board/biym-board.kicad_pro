@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
@@ -130,7 +131,8 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
@@ -314,18 +316,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -335,6 +342,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -352,7 +360,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -366,10 +374,10 @@
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.075,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -378,25 +386,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "/GND",
-          "/VDIGITAL",
-          "/VLED",
-          "/VSERVO",
-          "/driver/MOTOR_A",
-          "/driver/MOTOR_B",
-          "/driver/MOTOR_C",
-          "/driver/VDD"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.075,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -405,49 +403,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Signal",
-        "nets": [
-          "/DRIVER_PWM_A",
-          "/DRIVER_PWM_B",
-          "/DRIVER_PWM_C",
-          "/ENABLE_LED_POWER",
-          "/ENABLE_SERVO_POWER",
-          "/ENCODER_A",
-          "/ENCODER_B",
-          "/GPIO_0",
-          "/GPIO_1",
-          "/MISO",
-          "/MOSI",
-          "/SCK",
-          "/SERVO_SIGNAL_0",
-          "/SERVO_SIGNAL_1",
-          "/driver/CP",
-          "/driver/CSAREF",
-          "/servo/TRANSLATED_SIGNAL_0",
-          "/servo/TRANSLATED_SIGNAL_1",
-          "/~{DISABLE_ALL_POWER}",
-          "/~{DRIVER_FAULT}",
-          "/~{DRIVER_SLEEP}",
-          "/~{ENCODER_CS}",
-          "unconnected-(U1-Pad21)",
-          "unconnected-(U1-Pad22)",
-          "unconnected-(U1-Pad23)",
-          "unconnected-(U1-Pad3)",
-          "unconnected-(U1-Pad4)",
-          "unconnected-(U1-Pad5)",
-          "unconnected-(U2-Pad10)",
-          "unconnected-(U2-Pad14)",
-          "unconnected-(U2-Pad8)",
-          "unconnected-(U2-Pad9)"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.075,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -456,21 +420,185 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SuperPower",
-        "nets": [
-          "/VBATTERY"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 1.0,
         "via_drill": 0.5,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VDIGITAL"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VLED"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/VSERVO"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/driver/MOTOR_A"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/driver/MOTOR_B"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/driver/MOTOR_C"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/driver/VDD"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/DRIVER_PWM_A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/DRIVER_PWM_B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/DRIVER_PWM_C"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ENABLE_LED_POWER"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ENABLE_SERVO_POWER"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ENCODER_A"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/ENCODER_B"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/GPIO_0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/GPIO_1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/MISO"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/MOSI"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SCK"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SERVO_SIGNAL_0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/SERVO_SIGNAL_1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/driver/CP"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/driver/CSAREF"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/servo/TRANSLATED_SIGNAL_0"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/servo/TRANSLATED_SIGNAL_1"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/~{DISABLE_ALL_POWER}"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/~{DRIVER_FAULT}"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/~{DRIVER_SLEEP}"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "/~{ENCODER_CS}"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad21)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad22)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad23)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad3)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad4)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U1-Pad5)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U2-Pad10)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U2-Pad14)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U2-Pad8)"
+      },
+      {
+        "netclass": "Signal",
+        "pattern": "unconnected-(U2-Pad9)"
+      },
+      {
+        "netclass": "SuperPower",
+        "pattern": "/VBATTERY"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -486,6 +614,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
@@ -517,7 +647,11 @@
     "page_layout_descr_file": "",
     "plot_directory": "../schematic/",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
